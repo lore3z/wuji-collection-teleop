@@ -11,7 +11,7 @@ wuji_require_file "$WUJI_PYTHON"
 output_dir="${WUJI_WAVLETECH_SKELETON_DATA_DIR:-$WUJI_PROJECT_DIR/data/wavletech_skeleton}"
 mkdir -p "$output_dir"
 
-exec "$WUJI_PYTHON" "$WUJI_PROJECT_DIR/wuji_wavletech_skeleton_collect.py" \
+exec "$WUJI_PYTHON" "$WUJI_PROJECT_DIR/src/wuji_wavletech_skeleton_collect.py" \
   --output-dir "$output_dir" \
   --glove-sn "$WUJI_GLOVE_SN" \
   --glove-hz 120 \

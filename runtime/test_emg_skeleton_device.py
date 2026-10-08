@@ -162,7 +162,7 @@ class LauncherSafetyTests(unittest.TestCase):
 
     def test_hw_scripts_require_explicit_arm_without_python_or_ros(self):
         for mode in ("a", "b"):
-            result = self.run_cli(str(ROOT / f"run_mode_{mode}_emg_hw.sh"), executable="bash")
+            result = self.run_cli(str(ROOT / "scripts" / f"run_mode_{mode}_emg_hw.sh"), executable="bash")
             self.assertEqual(result.returncode, 2)
             self.assertIn("explicitly add --arm", result.stderr)
 
@@ -170,12 +170,12 @@ class LauncherSafetyTests(unittest.TestCase):
         for mode in ("A", "B"):
             for options in (("--sim", "--arm"), ("--hardware",), ("--arm",)):
                 with self.subTest(mode=mode, options=options):
-                    result = self.run_cli("-B", f"skeleton_teleop_MODE_{mode}_emg.py", *options)
+                    result = self.run_cli("-B", f"src/skeleton_teleop_MODE_{mode}_emg.py", *options)
                     self.assertEqual(result.returncode, 2)
                     self.assertNotIn("[V9.4]", result.stdout)
 
     def test_unsafe_ports_are_rejected_before_startup(self):
-        result = self.run_cli("-B", "skeleton_teleop_MODE_A_emg.py", "--sim", "--port", "15120")
+        result = self.run_cli("-B", "src/skeleton_teleop_MODE_A_emg.py", "--sim", "--port", "15120")
         self.assertEqual(result.returncode, 2)
 
     def test_originals_and_frozen_sources_match(self):

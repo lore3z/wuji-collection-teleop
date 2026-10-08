@@ -87,7 +87,7 @@ WUJI_MYO_TTY_RESOLVED="$(wuji_resolve_myo_tty "$WUJI_MYO_TTY")"
 wuji_source_ros() {
   local ros_setup="/opt/ros/${WUJI_ROS_DISTRO}/setup.bash"
   if [[ ! -r "$ros_setup" ]]; then
-    echo "[FAILED] ROS setup 不存在：$ros_setup。先运行 ./setup.sh --check。" >&2
+    echo "[FAILED] ROS setup 不存在：$ros_setup。先运行 ./scripts/setup.sh --check。" >&2
     return 1
   fi
   unset LD_LIBRARY_PATH || true
@@ -103,3 +103,6 @@ wuji_require_file() {
     return 1
   fi
 }
+
+# Source modules and project-local namespace packages for child processes.
+export PYTHONPATH="$WUJI_PROJECT_DIR/src:$WUJI_PROJECT_DIR${PYTHONPATH:+:$PYTHONPATH}"

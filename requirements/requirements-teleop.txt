@@ -1,0 +1,14 @@
+# Keep this separate from the ROS acquisition environment.
+numpy>=1.23,<2
+mujoco==3.11.0
+pin==2.7.0
+nlopt==2.7.1
+PyYAML>=6,<7
+scipy>=1.10,<1.14
+trimesh>=4,<5
+lxml>=4.9,<6
+networkx>=3,<4
+wuji-sdk==2026.8.17
+anytree>=2.8,<3
+six>=1.16,<2
+transforms3d>=0.4,<1

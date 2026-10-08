@@ -42,7 +42,7 @@ if [[ "${WUJI_SKIP_REALSENSE:-0}" == "1" && "${WUJI_VR_EGO_ENABLED:-0}" == "1" ]
   )
 fi
 
-exec "$WUJI_PYTHON" "$WUJI_PROJECT_DIR/wuji_glove_d435_ftp1_collect.py" \
+exec "$WUJI_PYTHON" "$WUJI_PROJECT_DIR/src/wuji_glove_d435_ftp1_collect.py" \
   --output-dir "$WUJI_DATA_DIR" \
   --glove-sn "$WUJI_GLOVE_SN" \
   --glove-hz 120 \

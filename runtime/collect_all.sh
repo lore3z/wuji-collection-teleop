@@ -33,7 +33,7 @@ cleanup_stale_runtime_processes() {
   # behind. Remove only nodes owned by this collector before binding devices.
   local pattern pid pgid
   for pattern in \
-    "$WUJI_PROJECT_DIR/wuji_glove_d435_ftp1_collect.py" \
+    "$WUJI_PROJECT_DIR/src/wuji_glove_d435_ftp1_collect.py" \
     "$runtime_dir/myo_200hz_stream.py" \
     "$runtime_dir/wavletech_serial_stream.py" \
     "$runtime_dir/pico_raw_camera_publisher.py" \
@@ -107,7 +107,7 @@ for attempt in 1 2 3; do
 done
 if [[ "$contract_ok" != true ]]; then
   echo "[FAILED] Wuji 手套连续 3 次无法稳定通信。" >&2
-  echo "         当前已确认 192.168.1.101 存在丢包；请重插手套网线/供电，等指示灯稳定后重跑 ./human_collect.sh。" >&2
+  echo "         当前已确认 192.168.1.101 存在丢包；请重插手套网线/供电，等指示灯稳定后重跑 ./scripts/human_collect.sh。" >&2
   exit 1
 fi
 

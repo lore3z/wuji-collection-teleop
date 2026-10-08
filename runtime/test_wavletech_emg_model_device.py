@@ -49,7 +49,7 @@ def test_sample_clock_smooths_batched_arrivals() -> None:
 
 def test_wavletech_launcher_help_exposes_safety_contract() -> None:
     result = subprocess.run(
-        ["bash", str(ROOT / "run_wavletech_emg_model_hand.sh"), "--help"],
+        ["bash", str(ROOT / "scripts/run_wavletech_emg_model_hand.sh"), "--help"],
         cwd=ROOT, text=True, capture_output=True, timeout=10,
     )
     assert result.returncode == 0
@@ -58,6 +58,6 @@ def test_wavletech_launcher_help_exposes_safety_contract() -> None:
 
 
 def test_wavletech_confirmation_flag_does_not_require_second_prompt() -> None:
-    launcher = (ROOT / "run_emg_model_hand.sh").read_text(encoding="utf-8")
+    launcher = (ROOT / "scripts/run_emg_model_hand.sh").read_text(encoding="utf-8")
     assert "Type WAVLETECH to ARM" not in launcher
     assert "--confirm-wavletech-model supplied; starting real-hand control" in launcher

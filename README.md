@@ -6,12 +6,12 @@
 
 | 用途 | 入口 | 输出/行为 |
 | --- | --- | --- |
-| Wuji + Myo + Wavletech + RealSense + Gemini 多模态采集 | `./collect.sh` | FTP-1 Zarr；可选 MP4 |
-| PICO 第一人称 + Gemini + 手套/EMG/Tracker 采集 | `./human_collect.sh` | 交互选择任务目录；默认快速保存、不生成 MP4 |
+| Wuji + Myo + Wavletech + RealSense + Gemini 多模态采集 | `./scripts/collect.sh` | FTP-1 Zarr；可选 MP4 |
+| PICO 第一人称 + Gemini + 手套/EMG/Tracker 采集 | `./scripts/human_collect.sh` | 交互选择任务目录；默认快速保存、不生成 MP4 |
 | Wavletech 8 通道 EMG + Wuji 21 点骨架采集 | `./runtime/run_wuji_wavletech_skeleton_collect.sh` | Zarr 和训练兼容的 `calibration.npz` |
 | 唯理 WAVELETECH-18 腕带采集 | `./runtime/run_weili18_emg_collect.sh` | 18 通道 EMG + IMU Zarr |
-| Wuji 手套控制 L20/G20、并记录机械手侧数据 | `./l20.sh` | CAN/ROS 控制；Sidecar Zarr |
-| EMG 模型控制 L20/G20 | `./run_emg_model_hand.sh` | 骨架推理 → A/B 重定向 → ROS 驱动 |
+| Wuji 手套控制 L20/G20、并记录机械手侧数据 | `./scripts/l20.sh` | CAN/ROS 控制；Sidecar Zarr |
+| EMG 模型控制 L20/G20 | `./scripts/run_emg_model_hand.sh` | 骨架推理 → A/B 重定向 → ROS 驱动 |
 | PICO/RealMan RM75 | `wuji_ros2_src/` | 独立 ROS 2 包，见下文 |
 
 两种唯理/Wavletech 腕带协议不同：8 通道接收器为 921600 baud；18 通道腕带为 2000000 baud。不能互换接收程序。串口由单个采集/遥操进程独占。
@@ -25,11 +25,11 @@ git clone https://github.com/lore3z/wuji-collection-teleop.git
 cd wuji-collection-teleop
 cp config/local.env.example config/local.env
 # 编辑 config/local.env，填写自己的设备信息。
-./setup.sh --install-system
-./check.sh --software
+./scripts/setup.sh --install-system
+./scripts/check.sh --software
 ```
 
-已有系统依赖时运行 `./setup.sh`。它创建 `.venv/`、安装 `requirements-collector.txt` 与 `pyomyo`，构建项目内 Gemini 和 LinkerHand 驱动。`--install-system` 会调用 sudo 安装系统软件。PICO 显示流模式还需 `adb`、`ffmpeg`：
+已有系统依赖时运行 `./scripts/setup.sh`。它创建 `.venv/`、安装 `requirements/requirements-collector.txt` 与 `pyomyo`，构建项目内 Gemini 和 LinkerHand 驱动。`--install-system` 会调用 sudo 安装系统软件。PICO 显示流模式还需 `adb`、`ffmpeg`：
 
 ```bash
 sudo apt install adb ffmpeg
@@ -58,9 +58,9 @@ WUJI_MYO_ENABLED=0
 接好已启用的手套、腕带和相机，执行：
 
 ```bash
-./collect.sh
+./scripts/collect.sh
 # PICO 第一人称模式：
-./human_collect.sh
+./scripts/human_collect.sh
 ```
 
 `collect.sh` 默认使用 RealSense 第一人称与 Gemini 第三人称。`human_collect.sh` 使用 PICO；当前默认是原生 CameraHandle H.264 双眼流，需要头显端具备相应 CameraHandle 服务的应用。原生视频与 Tracker 的 XRoboToolkit 链路分别准备；PICO 录屏模式仅用于合成显示诊断，可通过 `WUJI_VR_EGO_MODE=screenrecord` 配置，不能当作标定后的原始相机数据。
@@ -77,14 +77,14 @@ WUJI_MYO_ENABLED=0
 | `status` | 查看各路数据状态 |
 | `q` | 退出 |
 
-启动器要求 raw tactile、区域统计、point cloud 均满足官方 **526 active taxels** 合同；时间同步、源中断、RGB 和 EMG 连续性也有拒录门。检查失败时修复设备或配置，不能靠插值伪造有效点。细节见 [FTP1_COLLECTION_QUALITY.md](FTP1_COLLECTION_QUALITY.md)。
+启动器要求 raw tactile、区域统计、point cloud 均满足官方 **526 active taxels** 合同；时间同步、源中断、RGB 和 EMG 连续性也有拒录门。检查失败时修复设备或配置，不能靠插值伪造有效点。细节见 [FTP1_COLLECTION_QUALITY.md](docs/FTP1_COLLECTION_QUALITY.md)。
 
 常规输出在 `WUJI_DATA_DIR`，默认 `data/ftp1/`；`human_collect.sh` 按交互选择将任务数据写入项目 `data/` 下。每条 episode 保留训练对齐数据和 `streams/` 原始数据。
 
 ```bash
-./.venv/bin/python read_wuji_glove_ftp1_zarr.py /路径/episode.zarr --frame 0
-./.venv/bin/python read_wuji_glove_ftp1_zarr.py /路径/数据目录 --latest --play --camera ego
-./.venv/bin/python visualize_glove_trajectory.py /路径/数据目录 --latest
+./.venv/bin/python src/read_wuji_glove_ftp1_zarr.py /路径/episode.zarr --frame 0
+./.venv/bin/python src/read_wuji_glove_ftp1_zarr.py /路径/数据目录 --latest --play --camera ego
+./.venv/bin/python src/visualize_glove_trajectory.py /路径/数据目录 --latest
 ```
 
 ## EMG 专项采集
@@ -122,32 +122,32 @@ WUJI_HUMAN_URDF=/绝对路径/当前Wuji用户/models/right_hand.urdf
 
 ```bash
 python3 -m venv .venv-teleop
-./.venv-teleop/bin/pip install -r requirements-teleop.txt
+./.venv-teleop/bin/pip install -r requirements/requirements-teleop.txt
 ```
 
 先准备 CAN，并在终端 1 启动驱动：
 
 ```bash
-./l20.sh can
-./l20.sh driver
+./scripts/l20.sh can
+./scripts/l20.sh driver
 ```
 
 终端 2 启动手套遥操（默认使用 `.venv-teleop`；可用 `EMG_GEORT_PYTHON` 覆盖）：
 
 ```bash
-./l20.sh teleop
+./scripts/l20.sh teleop
 ```
 
 终端 3 记录机械手侧数据：
 
 ```bash
-./l20.sh record
+./scripts/l20.sh record
 ```
 
 默认文件为 `data/l20/l20_teleop_pressure_120hz.zarr`。120 Hz 是写入轴，源关节/压力的真实频率由时间戳与序号判断。遥操启动器默认控制参数为 30 Hz，可以显式传 `--control-hz` 覆盖。首次运行按提示完成 OPEN/FIST 标定及接管。
 
 ```bash
-./.venv/bin/python read_l20_pressure_zarr.py data/l20/l20_teleop_pressure_120hz.zarr
+./.venv/bin/python src/read_l20_pressure_zarr.py data/l20/l20_teleop_pressure_120hz.zarr
 ```
 
 CAN 重置前停止驱动及遥操。运行实体控制时关闭厂商 GUI，保持只有一份控制链路。Ctrl+C 停止当前入口拥有的进程。
@@ -156,16 +156,16 @@ CAN 重置前停止驱动及遥操。运行实体控制时关闭厂商 GUI，保
 
 本仓库包含 EMG 数据接收、骨架适配、安全门、A/B 控制器和桥接模块。**训练工程、模型权重及其推理服务不在本仓库内**，需单独安装对应 EMG2Pose 工程，并把 `--model` 指向该工程里的绝对 checkpoint/模型目录；其服务与 Python 环境由模型解析器识别。分类器 checkpoint 不能代替 21×3 骨架模型。
 
-安装上面的 `.venv-teleop`，保持终端 1 的 `./l20.sh driver` 运行。首次先验证实时骨架链路：
+安装上面的 `.venv-teleop`，保持终端 1 的 `./scripts/l20.sh driver` 运行。首次先验证实时骨架链路：
 
 ```bash
-./run_wavletech_emg_model_hand.sh --model /绝对路径/模型工程/weights/finetune.pt --mode b --dry-run
+./scripts/run_wavletech_emg_model_hand.sh --model /绝对路径/模型工程/weights/finetune.pt --mode b --dry-run
 ```
 
 确认是原生 Wavletech 2000 Hz 模型后启动实体控制：
 
 ```bash
-./run_wavletech_emg_model_hand.sh \
+./scripts/run_wavletech_emg_model_hand.sh \
   --model /绝对路径/模型工程/weights/finetune.pt \
   --mode b \
   --confirm-wavletech-model
@@ -174,13 +174,13 @@ CAN 重置前停止驱动及遥操。运行实体控制时关闭厂商 GUI，保
 Myo 输入使用对应的 Myo 模型：
 
 ```bash
-./run_emg_model_hand.sh --model /绝对路径/Myo模型目录 --mode b --dry-run
-./run_emg_model_hand.sh --model /绝对路径/Myo模型目录 --mode b
+./scripts/run_emg_model_hand.sh --model /绝对路径/Myo模型目录 --mode b --dry-run
+./scripts/run_emg_model_hand.sh --model /绝对路径/Myo模型目录 --mode b
 ```
 
 Myo 实体遥操在检查通过后按回车授权；Wavletech 的 `--confirm-wavletech-model` 直接授权控制。`--mode a` 是捏合辅助，`--mode b` 是自然动作。`--check-only` 检查文件、模型加载和端口；`--dry-run` 验证新骨架包，均不启动机械手控制器。控制器默认 Python 为 `.venv-teleop/bin/python`，可用 `EMG_GEORT_PYTHON` 覆盖。
 
-Myo 模型输入为原始 8 通道约 200 Hz EMG；Wavletech 原生模型输入约 2000 Hz，两者不能互换。纯 EMG 遥操无需连接手套。日志保存在 `runtime/emg_model_hand_runs/` 和 `runtime/emg_teleop_sessions/`。骨架过期、会话变化或源中断会禁止输出，需要重新启动并授权。更多接口约定见 [EMG_MODEL_HAND.md](EMG_MODEL_HAND.md)。
+Myo 模型输入为原始 8 通道约 200 Hz EMG；Wavletech 原生模型输入约 2000 Hz，两者不能互换。纯 EMG 遥操无需连接手套。日志保存在 `runtime/emg_model_hand_runs/` 和 `runtime/emg_teleop_sessions/`。骨架过期、会话变化或源中断会禁止输出，需要重新启动并授权。更多接口约定见 [EMG_MODEL_HAND.md](docs/EMG_MODEL_HAND.md)。
 
 ## PICO Tracker 与 RM75 ROS 2 模块
 
@@ -202,6 +202,11 @@ RM75 需要独立的 Pinocchio 3+ / `coal` 和官方 `Robotic_Arm` SDK 环境，
 ## 目录与开发验证
 
 ```text
+README.md                       项目入口与使用说明
+scripts/                        安装、采集、遥操启动脚本
+src/                            采集器、适配器、数据读取等 Python 代码
+docs/                           接口、质量要求和迁移说明
+requirements/                   采集与遥操依赖清单
 config/                         共享默认值、本机配置模板
 runtime/                        数据接收、启动编排、诊断、离线测试
 runtime/emg_teleop_baseline_v1/  有 SHA256 校验的 A/B 控制器与标定参考
@@ -219,8 +224,8 @@ data/                           本地采集结果，不提交
 ```bash
 ./.venv/bin/pip install pytest
 ./.venv/bin/python -m pytest runtime -q
-./.venv/bin/python skeleton_teleop_MODE_A_emg.py --verify-only
-./.venv/bin/python skeleton_teleop_MODE_B_emg.py --verify-only
+./.venv/bin/python src/skeleton_teleop_MODE_A_emg.py --verify-only
+./.venv/bin/python src/skeleton_teleop_MODE_B_emg.py --verify-only
 ```
 
-本机配置、个人校准、录制数据、模型权重、日志、虚拟环境和 ROS 构建产物由 `.gitignore` 排除。迁移到新机器后重新安装/构建并录一条短 episode 验证硬件。项目中的第三方代码保留各自许可证，参见 [THIRD_PARTY.md](THIRD_PARTY.md)。
+本机配置、个人校准、录制数据、模型权重、日志、虚拟环境和 ROS 构建产物由 `.gitignore` 排除。迁移到新机器后重新安装/构建并录一条短 episode 验证硬件。项目中的第三方代码保留各自许可证，参见 [THIRD_PARTY.md](docs/THIRD_PARTY.md)。

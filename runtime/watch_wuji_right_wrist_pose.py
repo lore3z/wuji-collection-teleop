@@ -10,6 +10,15 @@ Press Ctrl-C to stop.  ``--seconds`` is useful for a short connection check.
 
 from __future__ import annotations
 
+# Resolve project imports independently of the current working directory.
+import sys as _project_sys
+from pathlib import Path as _ProjectPath
+_project_root = _ProjectPath(__file__).resolve().parents[1]
+for _project_path in (_project_root, _project_root / "src"):
+    if str(_project_path) not in _project_sys.path:
+        _project_sys.path.insert(0, str(_project_path))
+
+
 import argparse
 import os
 import sys

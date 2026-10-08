@@ -9,7 +9,7 @@ wuji_source_ros
 wuji_require_file "$WUJI_L20_DRIVER_WS/install/setup.bash"
 
 if ! ip link show can0 2>/dev/null | grep -q 'UP'; then
-  echo "[FAILED] can0 is not UP. Stop every L20/GUI process, then run: ./l20.sh can" >&2
+  echo "[FAILED] can0 is not UP. Stop every L20/GUI process, then run: ./scripts/l20.sh can" >&2
   exit 1
 fi
 
