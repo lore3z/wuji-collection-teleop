@@ -1,0 +1,149 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Base grid
+      Enabled: true
+      Cell Size: 0.1
+      Plane Cell Count: 20
+      Reference Frame: base_link
+      Value: true
+    - Class: rviz_default_plugins/RobotModel
+      Name: RM75 offline IK
+      Enabled: true
+      Description Source: Topic
+      Description Topic:
+        Value: /robot_description
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Depth: 5
+      Visual Enabled: true
+      Collision Enabled: false
+      Alpha: 1
+      Value: true
+    - Class: rviz_default_plugins/RobotModel
+      Name: RM75 LIMITED COMMAND - GREEN RIGHT SIDE
+      Enabled: true
+      Description Source: Topic
+      Description Topic:
+        Value: /rm75_real_command/robot_description
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Depth: 5
+      TF Prefix: ""
+      Visual Enabled: true
+      Collision Enabled: false
+      Alpha: 0.75
+      Value: true
+    - Class: rviz_default_plugins/Path
+      Name: Complete target TCP path
+      Enabled: true
+      Topic:
+        Value: /rm75_sim/target_path
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Depth: 5
+      Color: 255; 170; 0
+      Line Style: Lines
+      Line Width: 0.018
+      Buffer Length: 1
+      Pose Style: None
+      Value: true
+    - Class: rviz_default_plugins/Path
+      Name: Actual FK trace
+      Enabled: true
+      Topic:
+        Value: /rm75_sim/fk_path
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Depth: 5
+      Color: 0; 170; 255
+      Line Style: Lines
+      Line Width: 0.012
+      Buffer Length: 1
+      Pose Style: None
+      Value: true
+    - Class: rviz_default_plugins/Pose
+      Name: Current target TCP
+      Enabled: true
+      Topic:
+        Value: /rm75_sim/target_pose
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Depth: 5
+      Shape: Axes
+      Axes Length: 0.12
+      Axes Radius: 0.01
+      Value: true
+    - Class: rviz_default_plugins/Pose
+      Name: Current FK TCP
+      Enabled: true
+      Topic:
+        Value: /rm75_sim/fk_pose
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Depth: 5
+      Shape: Arrow
+      Color: 0; 255; 0
+      Shaft Length: 0.10
+      Shaft Radius: 0.008
+      Head Length: 0.035
+      Head Radius: 0.016
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Name: Upper-arm elbow observation
+      Enabled: true
+      Topic:
+        Value: /rm75_sim/upper_arm_markers
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        History Policy: Keep Last
+      Depth: 10
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Name: Elbow assist current-vs-desired
+      Enabled: true
+      Topic:
+        Value: /rm75_sim/elbow_assist_markers
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Depth: 10
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 35; 35; 35
+    Fixed Frame: base_link
+    Frame Rate: 60
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 1.6
+      Focal Point:
+        X: 0.15
+        Y: 0.0
+        Z: 0.48
+      Pitch: 0.35
+      Yaw: 0.75
+      Target Frame: base_link
+      Value: Orbit (rviz)

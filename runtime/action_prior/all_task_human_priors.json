@@ -1,0 +1,5617 @@
+{
+  "data_root": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)",
+  "n_episodes": 647,
+  "n_tasks": 24,
+  "n_phase": 128,
+  "joint_names": [
+    "palm_adduction",
+    "thumb_adduction",
+    "thumb_mcp",
+    "thumb_ip",
+    "index_adduction",
+    "index_mcp",
+    "index_pip",
+    "index_dip",
+    "middle_adduction",
+    "middle_mcp",
+    "middle_pip",
+    "middle_dip",
+    "ring_adduction",
+    "ring_mcp",
+    "ring_pip",
+    "ring_dip",
+    "pinky_adduction",
+    "pinky_mcp",
+    "pinky_pip",
+    "pinky_dip",
+    "palm"
+  ],
+  "tasks": {
+    "t1": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t1",
+      "closure_range": 0.14282961999005672,
+      "max_closure": 0.4176157374331213,
+      "synchrony": 0.7762407822946491,
+      "grasp_score": 0.3382083818117414,
+      "peak_phase": 0.08661417322834646,
+      "finger_peak": {
+        "index": 0.36922059841001226,
+        "middle": 0.3838038993386312,
+        "ring": 0.3887304090715521,
+        "pinky": 0.534148044967124
+      }
+    },
+    "t2": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t2",
+      "closure_range": 0.13072655420812845,
+      "max_closure": 0.5775497865778045,
+      "synchrony": 0.3451294882675518,
+      "grasp_score": 0.28531294911243216,
+      "peak_phase": 0.44881889763779526,
+      "finger_peak": {
+        "index": 0.4475706978867053,
+        "middle": 0.5740040711184472,
+        "ring": 0.6534275175905178,
+        "pinky": 0.6963940998234721
+      }
+    },
+    "t3": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t3",
+      "closure_range": 0.11612451286639608,
+      "max_closure": 0.3832145311991794,
+      "synchrony": 0.7661027335559433,
+      "grasp_score": 0.3128926615875014,
+      "peak_phase": 0.08661417322834646,
+      "finger_peak": {
+        "index": 0.4217739981327226,
+        "middle": 0.4787162752891929,
+        "ring": 0.3588718587775307,
+        "pinky": 0.302376979801271
+      }
+    },
+    "t4": {
+      "episodes": 26,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t4",
+      "closure_range": 0.11928978696391351,
+      "max_closure": 0.4227142302574528,
+      "synchrony": 0.7752342941205187,
+      "grasp_score": 0.3263347992186194,
+      "peak_phase": 0.07874015748031496,
+      "finger_peak": {
+        "index": 0.5417936010047217,
+        "middle": 0.5012366758446924,
+        "ring": 0.33960528279597846,
+        "pinky": 0.3232096898730479
+      }
+    },
+    "t5": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t5",
+      "closure_range": 0.11591825584197951,
+      "max_closure": 0.5000902326644284,
+      "synchrony": 0.45888635924512444,
+      "grasp_score": 0.2805548707282207,
+      "peak_phase": 0.44881889763779526,
+      "finger_peak": {
+        "index": 0.43188316433765545,
+        "middle": 0.5278107466202748,
+        "ring": 0.5436776590399297,
+        "pinky": 0.5521320074767286
+      }
+    },
+    "t6": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t6",
+      "closure_range": 0.0858829463463131,
+      "max_closure": 0.4309448501031324,
+      "synchrony": 0.5453791975274166,
+      "grasp_score": 0.26404767252173866,
+      "peak_phase": 0.07086614173228346,
+      "finger_peak": {
+        "index": 0.4254525606863713,
+        "middle": 0.5082133122230209,
+        "ring": 0.41157184480800335,
+        "pinky": 0.41640956268123197
+      }
+    },
+    "t7": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t7",
+      "closure_range": 0.09354358229145626,
+      "max_closure": 0.4813300608361693,
+      "synchrony": 0.38175618899414565,
+      "grasp_score": 0.2481327232681724,
+      "peak_phase": 0.07874015748031496,
+      "finger_peak": {
+        "index": 0.41137719912960835,
+        "middle": 0.49425800800458153,
+        "ring": 0.5029823054568702,
+        "pinky": 0.5466673807106229
+      }
+    },
+    "t8": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t8",
+      "closure_range": 0.09007610172020014,
+      "max_closure": 0.49306584515538526,
+      "synchrony": 0.42255815263776236,
+      "grasp_score": 0.2573199477625089,
+      "peak_phase": 0.5590551181102362,
+      "finger_peak": {
+        "index": 0.43051418644125405,
+        "middle": 0.5071628807596202,
+        "ring": 0.5171583952129728,
+        "pinky": 0.5563850935762605
+      }
+    },
+    "t9": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t9",
+      "closure_range": 0.09011931039828186,
+      "max_closure": 0.4860880537037636,
+      "synchrony": 0.5881087196745679,
+      "grasp_score": 0.28870937807990954,
+      "peak_phase": 0.07086614173228346,
+      "finger_peak": {
+        "index": 0.3743850012404348,
+        "middle": 0.5504620225882009,
+        "ring": 0.5051469119254951,
+        "pinky": 0.5403428316208114
+      }
+    },
+    "t10": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t10",
+      "closure_range": 0.10381735356807081,
+      "max_closure": 0.4755759257422602,
+      "synchrony": 0.3113743761352232,
+      "grasp_score": 0.23826840112504863,
+      "peak_phase": 0.07086614173228346,
+      "finger_peak": {
+        "index": 0.6168277572556272,
+        "middle": 0.5362607422447528,
+        "ring": 0.41170094153266223,
+        "pinky": 0.3705760750894738
+      }
+    },
+    "t11": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t11",
+      "closure_range": 0.07863371429066707,
+      "max_closure": 0.3909421096062589,
+      "synchrony": 0.5625705415372636,
+      "grasp_score": 0.25349817856888435,
+      "peak_phase": 0.08661417322834646,
+      "finger_peak": {
+        "index": 0.32024820150909444,
+        "middle": 0.3753389057743655,
+        "ring": 0.375628222665485,
+        "pinky": 0.5202478890112288
+      }
+    },
+    "t12": {
+      "episodes": 27,
+      "subjects": [
+        "t3",
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t12",
+      "closure_range": 0.1599919676476813,
+      "max_closure": 0.595923486182278,
+      "synchrony": 0.6657291291280075,
+      "grasp_score": 0.37012227957739574,
+      "peak_phase": 0.47244094488188976,
+      "finger_peak": {
+        "index": 0.4926792876469102,
+        "middle": 0.6995177396667526,
+        "ring": 0.6165515152758629,
+        "pinky": 0.6066002555875789
+      }
+    },
+    "t13": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t13",
+      "closure_range": 0.1389184747531172,
+      "max_closure": 0.5663462372243011,
+      "synchrony": 0.6954200846761925,
+      "grasp_score": 0.3570757373555282,
+      "peak_phase": 0.6614173228346457,
+      "finger_peak": {
+        "index": 0.3764026724894634,
+        "middle": 0.6521481389398143,
+        "ring": 0.6132795111604151,
+        "pinky": 0.6397589913149627
+      }
+    },
+    "t14": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t14",
+      "closure_range": 0.16169972257352538,
+      "max_closure": 0.5038828834321778,
+      "synchrony": 0.7064252832072749,
+      "grasp_score": 0.3561906249149384,
+      "peak_phase": 0.08661417322834646,
+      "finger_peak": {
+        "index": 0.5616830379732837,
+        "middle": 0.6306445407929361,
+        "ring": 0.4534856006637499,
+        "pinky": 0.39895075847110006
+      }
+    },
+    "t15": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t15",
+      "closure_range": 0.2067483832761039,
+      "max_closure": 0.505232462086559,
+      "synchrony": 0.6469424162980271,
+      "grasp_score": 0.36940820958310233,
+      "peak_phase": 0.10236220472440945,
+      "finger_peak": {
+        "index": 0.6616911469999246,
+        "middle": 0.5799964656310213,
+        "ring": 0.4229245598460177,
+        "pinky": 0.3666574477281238
+      }
+    },
+    "t16": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t16",
+      "closure_range": 0.0944497220813938,
+      "max_closure": 0.5032654689035887,
+      "synchrony": 0.3563984155411104,
+      "grasp_score": 0.24904339747888585,
+      "peak_phase": 0.4015748031496063,
+      "finger_peak": {
+        "index": 0.45919002142240944,
+        "middle": 0.5848877760901544,
+        "ring": 0.5106474456258859,
+        "pinky": 0.5178649819113365
+      }
+    },
+    "t17": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t17",
+      "closure_range": 0.10158215678782645,
+      "max_closure": 0.4755816519000669,
+      "synchrony": 0.5409561374797881,
+      "grasp_score": 0.2829568267042789,
+      "peak_phase": 0.5511811023622047,
+      "finger_peak": {
+        "index": 0.4204311547068639,
+        "middle": 0.5824470347287862,
+        "ring": 0.45999465480573387,
+        "pinky": 0.4682139965606182
+      }
+    },
+    "t18": {
+      "episodes": 27,
+      "subjects": [
+        "data(finish)",
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t18",
+      "closure_range": 0.21643469640818264,
+      "max_closure": 0.48859893402700233,
+      "synchrony": 0.46484603684553766,
+      "grasp_score": 0.3341580239003586,
+      "peak_phase": 0.13385826771653545,
+      "finger_peak": {
+        "index": 0.42943860047438925,
+        "middle": 0.49625916051851704,
+        "ring": 0.530001551215351,
+        "pinky": 0.5471103646520381
+      }
+    },
+    "t19": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t19",
+      "closure_range": 0.11520099403489797,
+      "max_closure": 0.32507109877566,
+      "synchrony": 0.14560748406090473,
+      "grasp_score": 0.17374981822528984,
+      "peak_phase": 0.10236220472440945,
+      "finger_peak": {
+        "index": 0.3671434503268078,
+        "middle": 0.4247870732670174,
+        "ring": 0.3914966761977565,
+        "pinky": 0.3123335652945832
+      }
+    },
+    "t20": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t20",
+      "closure_range": 0.3912821418449689,
+      "max_closure": 0.4720313811940334,
+      "synchrony": 0.29858648085909595,
+      "grasp_score": 0.39293031948506046,
+      "peak_phase": 0.047244094488188976,
+      "finger_peak": {
+        "index": 0.32102336246666274,
+        "middle": 0.5183766727902279,
+        "ring": 0.6478789609082611,
+        "pinky": 0.6304404589884256
+      }
+    },
+    "t21": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t21",
+      "closure_range": 0.42813283370433325,
+      "max_closure": 0.5923295355474351,
+      "synchrony": 0.8878370962673774,
+      "grasp_score": 0.5611228616777176,
+      "peak_phase": 0.08661417322834646,
+      "finger_peak": {
+        "index": 0.6539704554143952,
+        "middle": 0.6026451805119807,
+        "ring": 0.5498963279117232,
+        "pinky": 0.5761399209496115
+      }
+    },
+    "t22": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t22",
+      "closure_range": 0.7246262937983654,
+      "max_closure": 0.9306955752459448,
+      "synchrony": 0.9460486188844904,
+      "grasp_score": 0.8204280791774854,
+      "peak_phase": 0.84251968503937,
+      "finger_peak": {
+        "index": 0.9725734030314692,
+        "middle": 0.9450879251667325,
+        "ring": 0.8548660390196796,
+        "pinky": 0.9653463641621316
+      }
+    },
+    "t23": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t23",
+      "closure_range": 0.007541784761128281,
+      "max_closure": 0.11452156904213985,
+      "synchrony": 0.2808301302889064,
+      "grasp_score": 0.08894439993693681,
+      "peak_phase": 0.0,
+      "finger_peak": {
+        "index": 0.13216879671978876,
+        "middle": 0.10510822890931691,
+        "ring": 0.06392090295317694,
+        "pinky": 0.181507620731033
+      }
+    },
+    "t24": {
+      "episodes": 27,
+      "subjects": [
+        "严培宇",
+        "刘洲同",
+        "吴雨潼",
+        "周越",
+        "夏金阳",
+        "张辰旭",
+        "朱晨旭",
+        "李俊杰",
+        "李啸海",
+        "李得龙",
+        "杨海跃",
+        "梁沃林",
+        "王奕博",
+        "白钰婷",
+        "胡晓帆",
+        "胡越翔",
+        "胥梓恒",
+        "英雄峰",
+        "蔡政特",
+        "蔡轶桦#",
+        "谢骏奇",
+        "连书漾",
+        "郭颖年",
+        "钱王瑞",
+        "陈光",
+        "黄乐彤",
+        "龙葆琳"
+      ],
+      "instruction": "任务 t24",
+      "closure_range": 0.10065031972303576,
+      "max_closure": 0.25262726998980556,
+      "synchrony": 0.4920137779977533,
+      "grasp_score": 0.21691724894467174,
+      "peak_phase": 0.6377952755905512,
+      "finger_peak": {
+        "index": 0.3044288230651435,
+        "middle": 0.2824874753113053,
+        "ring": 0.22818768534466138,
+        "pinky": 0.26421930419144063
+      }
+    }
+  },
+  "episodes": [
+    {
+      "task": "t1",
+      "subject": "严培宇",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t1/有手套/episode_000000.zarr",
+      "frames": 2530
+    },
+    {
+      "task": "t2",
+      "subject": "严培宇",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t2/有手套/episode_000000.zarr",
+      "frames": 3209
+    },
+    {
+      "task": "t3",
+      "subject": "严培宇",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t3/有手套/episode_000000.zarr",
+      "frames": 2462
+    },
+    {
+      "task": "t4",
+      "subject": "严培宇",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t4/有手套/episode_000000.zarr",
+      "frames": 2266
+    },
+    {
+      "task": "t5",
+      "subject": "严培宇",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t5/有手套/episode_000000.zarr",
+      "frames": 2309
+    },
+    {
+      "task": "t6",
+      "subject": "严培宇",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t6/有手套/episode_000000.zarr",
+      "frames": 2440
+    },
+    {
+      "task": "t7",
+      "subject": "严培宇",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t7/有手套/episode_000000.zarr",
+      "frames": 2299
+    },
+    {
+      "task": "t8",
+      "subject": "严培宇",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t8/有手套/episode_000000.zarr",
+      "frames": 2396
+    },
+    {
+      "task": "t9",
+      "subject": "严培宇",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t9/有手套/episode_000000.zarr",
+      "frames": 2366
+    },
+    {
+      "task": "t10",
+      "subject": "严培宇",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t10/有手套/episode_000000.zarr",
+      "frames": 2333
+    },
+    {
+      "task": "t11",
+      "subject": "严培宇",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t11/有手套/episode_000000.zarr",
+      "frames": 2443
+    },
+    {
+      "task": "t12",
+      "subject": "严培宇",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t12/有手套/episode_000000.zarr",
+      "frames": 2405
+    },
+    {
+      "task": "t13",
+      "subject": "严培宇",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t13/有手套/episode_000000.zarr",
+      "frames": 2439
+    },
+    {
+      "task": "t14",
+      "subject": "严培宇",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t14/有手套/episode_000000.zarr",
+      "frames": 2264
+    },
+    {
+      "task": "t15",
+      "subject": "严培宇",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t15/有手套/episode_000000.zarr",
+      "frames": 2545
+    },
+    {
+      "task": "t16",
+      "subject": "严培宇",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t16/有手套/episode_000000.zarr",
+      "frames": 2234
+    },
+    {
+      "task": "t17",
+      "subject": "严培宇",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t17/有手套/episode_000000.zarr",
+      "frames": 2341
+    },
+    {
+      "task": "t18",
+      "subject": "严培宇",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t18/有手套/episode_000000.zarr",
+      "frames": 3340
+    },
+    {
+      "task": "t19",
+      "subject": "严培宇",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t19/有手套/episode_000000.zarr",
+      "frames": 2815
+    },
+    {
+      "task": "t20",
+      "subject": "严培宇",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t20/有手套/episode_000000.zarr",
+      "frames": 3795
+    },
+    {
+      "task": "t21",
+      "subject": "严培宇",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t21/有手套/episode_000000.zarr",
+      "frames": 3148
+    },
+    {
+      "task": "t22",
+      "subject": "严培宇",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t22/有手套/episode_000000.zarr",
+      "frames": 2054
+    },
+    {
+      "task": "t23",
+      "subject": "严培宇",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t23/有手套/episode_000000.zarr",
+      "frames": 3680
+    },
+    {
+      "task": "t24",
+      "subject": "严培宇",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/严培宇/t24/有手套/episode_000000.zarr",
+      "frames": 3775
+    },
+    {
+      "task": "t1",
+      "subject": "刘洲同",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t1/有手套/episode_000000.zarr",
+      "frames": 1818
+    },
+    {
+      "task": "t2",
+      "subject": "刘洲同",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t2/有手套/episode_000000.zarr",
+      "frames": 1878
+    },
+    {
+      "task": "t3",
+      "subject": "刘洲同",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t3/有手套/episode_000000.zarr",
+      "frames": 1995
+    },
+    {
+      "task": "t4",
+      "subject": "刘洲同",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t4/有手套/episode_000000.zarr",
+      "frames": 1876
+    },
+    {
+      "task": "t5",
+      "subject": "刘洲同",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t5/有手套/episode_000000.zarr",
+      "frames": 1681
+    },
+    {
+      "task": "t6",
+      "subject": "刘洲同",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t6/有手套/episode_000000.zarr",
+      "frames": 1582
+    },
+    {
+      "task": "t7",
+      "subject": "刘洲同",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t7/有手套/episode_000000.zarr",
+      "frames": 1771
+    },
+    {
+      "task": "t8",
+      "subject": "刘洲同",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t8/有手套/episode_000000.zarr",
+      "frames": 1739
+    },
+    {
+      "task": "t9",
+      "subject": "刘洲同",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t9/有手套/episode_000000.zarr",
+      "frames": 1625
+    },
+    {
+      "task": "t10",
+      "subject": "刘洲同",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t10/有手套/episode_000000.zarr",
+      "frames": 2367
+    },
+    {
+      "task": "t11",
+      "subject": "刘洲同",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t11/有手套/episode_000000.zarr",
+      "frames": 1733
+    },
+    {
+      "task": "t12",
+      "subject": "刘洲同",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t12/有手套/episode_000000.zarr",
+      "frames": 1565
+    },
+    {
+      "task": "t13",
+      "subject": "刘洲同",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t13/有手套/episode_000000.zarr",
+      "frames": 2005
+    },
+    {
+      "task": "t14",
+      "subject": "刘洲同",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t14/有手套/episode_000000.zarr",
+      "frames": 2042
+    },
+    {
+      "task": "t15",
+      "subject": "刘洲同",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t15/有手套/episode_000000.zarr",
+      "frames": 2245
+    },
+    {
+      "task": "t16",
+      "subject": "刘洲同",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t16/有手套/episode_000000.zarr",
+      "frames": 1556
+    },
+    {
+      "task": "t17",
+      "subject": "刘洲同",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t17/有手套/episode_000000.zarr",
+      "frames": 1860
+    },
+    {
+      "task": "t18",
+      "subject": "刘洲同",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t18/有手套/episode_000000.zarr",
+      "frames": 2774
+    },
+    {
+      "task": "t19",
+      "subject": "刘洲同",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t19/有手套/episode_000000.zarr",
+      "frames": 1852
+    },
+    {
+      "task": "t20",
+      "subject": "刘洲同",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t20/有手套/episode_000000.zarr",
+      "frames": 4263
+    },
+    {
+      "task": "t21",
+      "subject": "刘洲同",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t21/有手套/episode_000000.zarr",
+      "frames": 2147
+    },
+    {
+      "task": "t22",
+      "subject": "刘洲同",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t22/有手套/episode_000000.zarr",
+      "frames": 1767
+    },
+    {
+      "task": "t23",
+      "subject": "刘洲同",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t23/有手套/episode_000000.zarr",
+      "frames": 3689
+    },
+    {
+      "task": "t24",
+      "subject": "刘洲同",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/刘洲同/t24/有手套/episode_000000.zarr",
+      "frames": 3745
+    },
+    {
+      "task": "t1",
+      "subject": "吴雨潼",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t1/有手套/episode_000000.zarr",
+      "frames": 2951
+    },
+    {
+      "task": "t2",
+      "subject": "吴雨潼",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t2/有手套/episode_000000.zarr",
+      "frames": 3703
+    },
+    {
+      "task": "t3",
+      "subject": "吴雨潼",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t3/有手套/episode_000000.zarr",
+      "frames": 3429
+    },
+    {
+      "task": "t4",
+      "subject": "吴雨潼",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t4/有手套/episode_000000.zarr",
+      "frames": 2899
+    },
+    {
+      "task": "t5",
+      "subject": "吴雨潼",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t5/有手套/episode_000000.zarr",
+      "frames": 2681
+    },
+    {
+      "task": "t6",
+      "subject": "吴雨潼",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t6/有手套/episode_000000.zarr",
+      "frames": 2837
+    },
+    {
+      "task": "t7",
+      "subject": "吴雨潼",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t7/有手套/episode_000000.zarr",
+      "frames": 2880
+    },
+    {
+      "task": "t8",
+      "subject": "吴雨潼",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t8/有手套/episode_000000.zarr",
+      "frames": 2906
+    },
+    {
+      "task": "t9",
+      "subject": "吴雨潼",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t9/有手套/episode_000000.zarr",
+      "frames": 2846
+    },
+    {
+      "task": "t10",
+      "subject": "吴雨潼",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t10/有手套/episode_000000.zarr",
+      "frames": 3079
+    },
+    {
+      "task": "t11",
+      "subject": "吴雨潼",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t11/有手套/episode_000000.zarr",
+      "frames": 3090
+    },
+    {
+      "task": "t12",
+      "subject": "吴雨潼",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t12/有手套/episode_000000.zarr",
+      "frames": 2988
+    },
+    {
+      "task": "t13",
+      "subject": "吴雨潼",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t13/有手套/episode_000000.zarr",
+      "frames": 3232
+    },
+    {
+      "task": "t14",
+      "subject": "吴雨潼",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t14/有手套/episode_000000.zarr",
+      "frames": 2978
+    },
+    {
+      "task": "t15",
+      "subject": "吴雨潼",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t15/有手套/episode_000000.zarr",
+      "frames": 2366
+    },
+    {
+      "task": "t16",
+      "subject": "吴雨潼",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t16/有手套/episode_000000.zarr",
+      "frames": 2983
+    },
+    {
+      "task": "t17",
+      "subject": "吴雨潼",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t17/有手套/episode_000000.zarr",
+      "frames": 3064
+    },
+    {
+      "task": "t18",
+      "subject": "吴雨潼",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t18/有手套/episode_000000.zarr",
+      "frames": 2994
+    },
+    {
+      "task": "t19",
+      "subject": "吴雨潼",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t19/有手套/episode_000000.zarr",
+      "frames": 2241
+    },
+    {
+      "task": "t20",
+      "subject": "吴雨潼",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t20/有手套/episode_000000.zarr",
+      "frames": 4123
+    },
+    {
+      "task": "t21",
+      "subject": "吴雨潼",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t21/有手套/episode_000000.zarr",
+      "frames": 1614
+    },
+    {
+      "task": "t22",
+      "subject": "吴雨潼",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t22/有手套/episode_000000.zarr",
+      "frames": 1782
+    },
+    {
+      "task": "t23",
+      "subject": "吴雨潼",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t23/有手套/episode_000000.zarr",
+      "frames": 3705
+    },
+    {
+      "task": "t24",
+      "subject": "吴雨潼",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/吴雨潼/t24/有手套/episode_000000.zarr",
+      "frames": 3865
+    },
+    {
+      "task": "t1",
+      "subject": "周越",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t1/有手套/episode_000000.zarr",
+      "frames": 2309
+    },
+    {
+      "task": "t2",
+      "subject": "周越",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t2/有手套/episode_000000.zarr",
+      "frames": 2186
+    },
+    {
+      "task": "t3",
+      "subject": "周越",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t3/有手套/episode_000000.zarr",
+      "frames": 2156
+    },
+    {
+      "task": "t4",
+      "subject": "周越",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t4/有手套/episode_000000.zarr",
+      "frames": 2097
+    },
+    {
+      "task": "t5",
+      "subject": "周越",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t5/有手套/episode_000000.zarr",
+      "frames": 2125
+    },
+    {
+      "task": "t6",
+      "subject": "周越",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t6/有手套/episode_000000.zarr",
+      "frames": 2522
+    },
+    {
+      "task": "t7",
+      "subject": "周越",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t7/有手套/episode_000000.zarr",
+      "frames": 2290
+    },
+    {
+      "task": "t8",
+      "subject": "周越",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t8/有手套/episode_000000.zarr",
+      "frames": 2373
+    },
+    {
+      "task": "t9",
+      "subject": "周越",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t9/有手套/episode_000000.zarr",
+      "frames": 2255
+    },
+    {
+      "task": "t10",
+      "subject": "周越",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t10/有手套/episode_000000.zarr",
+      "frames": 2286
+    },
+    {
+      "task": "t11",
+      "subject": "周越",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t11/有手套/episode_000000.zarr",
+      "frames": 2158
+    },
+    {
+      "task": "t12",
+      "subject": "周越",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t12/有手套/episode_000000.zarr",
+      "frames": 2555
+    },
+    {
+      "task": "t13",
+      "subject": "周越",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t13/有手套/episode_000000.zarr",
+      "frames": 2593
+    },
+    {
+      "task": "t14",
+      "subject": "周越",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t14/有手套/episode_000000.zarr",
+      "frames": 2285
+    },
+    {
+      "task": "t15",
+      "subject": "周越",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t15/有手套/episode_000000.zarr",
+      "frames": 2007
+    },
+    {
+      "task": "t16",
+      "subject": "周越",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t16/有手套/episode_000000.zarr",
+      "frames": 2222
+    },
+    {
+      "task": "t17",
+      "subject": "周越",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t17/有手套/episode_000000.zarr",
+      "frames": 1984
+    },
+    {
+      "task": "t18",
+      "subject": "周越",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t18/有手套/episode_000000.zarr",
+      "frames": 3231
+    },
+    {
+      "task": "t19",
+      "subject": "周越",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t19/有手套/episode_000000.zarr",
+      "frames": 2358
+    },
+    {
+      "task": "t20",
+      "subject": "周越",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t20/有手套/episode_000000.zarr",
+      "frames": 2603
+    },
+    {
+      "task": "t21",
+      "subject": "周越",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t21/有手套/episode_000000.zarr",
+      "frames": 1580
+    },
+    {
+      "task": "t22",
+      "subject": "周越",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t22/有手套/episode_000000.zarr",
+      "frames": 1906
+    },
+    {
+      "task": "t23",
+      "subject": "周越",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t23/有手套/episode_000000.zarr",
+      "frames": 3631
+    },
+    {
+      "task": "t24",
+      "subject": "周越",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/周越/t24/有手套/episode_000000.zarr",
+      "frames": 3882
+    },
+    {
+      "task": "t1",
+      "subject": "夏金阳",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t1/有手套/episode_000000.zarr",
+      "frames": 6056
+    },
+    {
+      "task": "t2",
+      "subject": "夏金阳",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t2/有手套/episode_000000.zarr",
+      "frames": 2548
+    },
+    {
+      "task": "t3",
+      "subject": "夏金阳",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t3/有手套/episode_000000.zarr",
+      "frames": 3494
+    },
+    {
+      "task": "t4",
+      "subject": "夏金阳",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t4/有手套/episode_000000.zarr",
+      "frames": 3216
+    },
+    {
+      "task": "t5",
+      "subject": "夏金阳",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t5/有手套/episode_000000.zarr",
+      "frames": 3781
+    },
+    {
+      "task": "t6",
+      "subject": "夏金阳",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t6/有手套/episode_000000.zarr",
+      "frames": 2554
+    },
+    {
+      "task": "t7",
+      "subject": "夏金阳",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t7/有手套/episode_000000.zarr",
+      "frames": 2854
+    },
+    {
+      "task": "t8",
+      "subject": "夏金阳",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t8/有手套/episode_000000.zarr",
+      "frames": 1981
+    },
+    {
+      "task": "t9",
+      "subject": "夏金阳",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t9/有手套/episode_000000.zarr",
+      "frames": 2627
+    },
+    {
+      "task": "t10",
+      "subject": "夏金阳",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t10/有手套/episode_000000.zarr",
+      "frames": 2673
+    },
+    {
+      "task": "t11",
+      "subject": "夏金阳",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t11/有手套/episode_000000.zarr",
+      "frames": 2625
+    },
+    {
+      "task": "t12",
+      "subject": "夏金阳",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t12/有手套/episode_000000.zarr",
+      "frames": 2415
+    },
+    {
+      "task": "t13",
+      "subject": "夏金阳",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t13/有手套/episode_000000.zarr",
+      "frames": 2302
+    },
+    {
+      "task": "t14",
+      "subject": "夏金阳",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t14/有手套/episode_000000.zarr",
+      "frames": 2662
+    },
+    {
+      "task": "t15",
+      "subject": "夏金阳",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t15/有手套/episode_000000.zarr",
+      "frames": 2253
+    },
+    {
+      "task": "t16",
+      "subject": "夏金阳",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t16/有手套/episode_000000.zarr",
+      "frames": 2198
+    },
+    {
+      "task": "t17",
+      "subject": "夏金阳",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t17/有手套/episode_000000.zarr",
+      "frames": 2223
+    },
+    {
+      "task": "t18",
+      "subject": "夏金阳",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t18/有手套/episode_000000.zarr",
+      "frames": 2442
+    },
+    {
+      "task": "t19",
+      "subject": "夏金阳",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t19/有手套/episode_000000.zarr",
+      "frames": 2124
+    },
+    {
+      "task": "t20",
+      "subject": "夏金阳",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t20/有手套/episode_000000.zarr",
+      "frames": 2244
+    },
+    {
+      "task": "t21",
+      "subject": "夏金阳",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t21/有手套/episode_000000.zarr",
+      "frames": 1735
+    },
+    {
+      "task": "t22",
+      "subject": "夏金阳",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t22/有手套/episode_000000.zarr",
+      "frames": 1890
+    },
+    {
+      "task": "t23",
+      "subject": "夏金阳",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t23/有手套/episode_000000.zarr",
+      "frames": 3695
+    },
+    {
+      "task": "t24",
+      "subject": "夏金阳",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/夏金阳/t24/有手套/episode_000000.zarr",
+      "frames": 3772
+    },
+    {
+      "task": "t1",
+      "subject": "张辰旭",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t1/有手套/episode_000000.zarr",
+      "frames": 3809
+    },
+    {
+      "task": "t2",
+      "subject": "张辰旭",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t2/有手套/episode_000000.zarr",
+      "frames": 3567
+    },
+    {
+      "task": "t3",
+      "subject": "张辰旭",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t3/有手套/episode_000000.zarr",
+      "frames": 3566
+    },
+    {
+      "task": "t4",
+      "subject": "张辰旭",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t4/有手套/episode_000000.zarr",
+      "frames": 3361
+    },
+    {
+      "task": "t5",
+      "subject": "张辰旭",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t5/有手套/episode_000000.zarr",
+      "frames": 3529
+    },
+    {
+      "task": "t6",
+      "subject": "张辰旭",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t6/有手套/episode_000000.zarr",
+      "frames": 3321
+    },
+    {
+      "task": "t7",
+      "subject": "张辰旭",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t7/有手套/episode_000000.zarr",
+      "frames": 3221
+    },
+    {
+      "task": "t8",
+      "subject": "张辰旭",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t8/有手套/episode_000000.zarr",
+      "frames": 4043
+    },
+    {
+      "task": "t9",
+      "subject": "张辰旭",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t9/有手套/episode_000000.zarr",
+      "frames": 3987
+    },
+    {
+      "task": "t10",
+      "subject": "张辰旭",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t10/有手套/episode_000000.zarr",
+      "frames": 3714
+    },
+    {
+      "task": "t11",
+      "subject": "张辰旭",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t11/有手套/episode_000000.zarr",
+      "frames": 4564
+    },
+    {
+      "task": "t12",
+      "subject": "张辰旭",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t12/有手套/episode_000000.zarr",
+      "frames": 4432
+    },
+    {
+      "task": "t13",
+      "subject": "张辰旭",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t13/有手套/episode_000000.zarr",
+      "frames": 4719
+    },
+    {
+      "task": "t14",
+      "subject": "张辰旭",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t14/有手套/episode_000000.zarr",
+      "frames": 4357
+    },
+    {
+      "task": "t15",
+      "subject": "张辰旭",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t15/有手套/episode_000000.zarr",
+      "frames": 5714
+    },
+    {
+      "task": "t16",
+      "subject": "张辰旭",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t16/有手套/episode_000000.zarr",
+      "frames": 3704
+    },
+    {
+      "task": "t17",
+      "subject": "张辰旭",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t17/有手套/episode_000000.zarr",
+      "frames": 3924
+    },
+    {
+      "task": "t18",
+      "subject": "张辰旭",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t18/有手套/episode_000000.zarr",
+      "frames": 4422
+    },
+    {
+      "task": "t19",
+      "subject": "张辰旭",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t19/有手套/episode_000000.zarr",
+      "frames": 2855
+    },
+    {
+      "task": "t20",
+      "subject": "张辰旭",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t20/有手套/episode_000000.zarr",
+      "frames": 4915
+    },
+    {
+      "task": "t21",
+      "subject": "张辰旭",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t21/有手套/episode_000000.zarr",
+      "frames": 4080
+    },
+    {
+      "task": "t22",
+      "subject": "张辰旭",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t22/有手套/episode_000000.zarr",
+      "frames": 4842
+    },
+    {
+      "task": "t23",
+      "subject": "张辰旭",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t23/有手套/episode_000000.zarr",
+      "frames": 3998
+    },
+    {
+      "task": "t24",
+      "subject": "张辰旭",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/张辰旭/t24/有手套/episode_000000.zarr",
+      "frames": 4031
+    },
+    {
+      "task": "t1",
+      "subject": "朱晨旭",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t1/有手套/episode_000000.zarr",
+      "frames": 2969
+    },
+    {
+      "task": "t2",
+      "subject": "朱晨旭",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t2/有手套/episode_000000.zarr",
+      "frames": 2612
+    },
+    {
+      "task": "t3",
+      "subject": "朱晨旭",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t3/有手套/episode_000000.zarr",
+      "frames": 2560
+    },
+    {
+      "task": "t4",
+      "subject": "朱晨旭",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t4/有手套/episode_000000.zarr",
+      "frames": 2767
+    },
+    {
+      "task": "t5",
+      "subject": "朱晨旭",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t5/有手套/episode_000000.zarr",
+      "frames": 2547
+    },
+    {
+      "task": "t6",
+      "subject": "朱晨旭",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t6/有手套/episode_000000.zarr",
+      "frames": 3192
+    },
+    {
+      "task": "t7",
+      "subject": "朱晨旭",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t7/有手套/episode_000000.zarr",
+      "frames": 2695
+    },
+    {
+      "task": "t8",
+      "subject": "朱晨旭",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t8/有手套/episode_000000.zarr",
+      "frames": 2432
+    },
+    {
+      "task": "t9",
+      "subject": "朱晨旭",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t9/有手套/episode_000000.zarr",
+      "frames": 2757
+    },
+    {
+      "task": "t10",
+      "subject": "朱晨旭",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t10/有手套/episode_000000.zarr",
+      "frames": 2895
+    },
+    {
+      "task": "t11",
+      "subject": "朱晨旭",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t11/有手套/episode_000000.zarr",
+      "frames": 2582
+    },
+    {
+      "task": "t12",
+      "subject": "朱晨旭",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t12/有手套/episode_000000.zarr",
+      "frames": 2828
+    },
+    {
+      "task": "t13",
+      "subject": "朱晨旭",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t13/有手套/episode_000000.zarr",
+      "frames": 3035
+    },
+    {
+      "task": "t14",
+      "subject": "朱晨旭",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t14/有手套/episode_000000.zarr",
+      "frames": 2748
+    },
+    {
+      "task": "t15",
+      "subject": "朱晨旭",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t15/有手套/episode_000000.zarr",
+      "frames": 2803
+    },
+    {
+      "task": "t16",
+      "subject": "朱晨旭",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t16/有手套/episode_000000.zarr",
+      "frames": 2661
+    },
+    {
+      "task": "t17",
+      "subject": "朱晨旭",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t17/有手套/episode_000000.zarr",
+      "frames": 2393
+    },
+    {
+      "task": "t18",
+      "subject": "朱晨旭",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t18/有手套/episode_000000.zarr",
+      "frames": 3343
+    },
+    {
+      "task": "t19",
+      "subject": "朱晨旭",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t19/有手套/episode_000000.zarr",
+      "frames": 3097
+    },
+    {
+      "task": "t20",
+      "subject": "朱晨旭",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t20/有手套/episode_000000.zarr",
+      "frames": 4319
+    },
+    {
+      "task": "t21",
+      "subject": "朱晨旭",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t21/有手套/episode_000000.zarr",
+      "frames": 2533
+    },
+    {
+      "task": "t22",
+      "subject": "朱晨旭",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t22/有手套/episode_000000.zarr",
+      "frames": 2444
+    },
+    {
+      "task": "t23",
+      "subject": "朱晨旭",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t23/有手套/episode_000000.zarr",
+      "frames": 3590
+    },
+    {
+      "task": "t24",
+      "subject": "朱晨旭",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/朱晨旭/t24/有手套/episode_000000.zarr",
+      "frames": 3896
+    },
+    {
+      "task": "t1",
+      "subject": "李俊杰",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t1/有手套/episode_000000.zarr",
+      "frames": 4055
+    },
+    {
+      "task": "t2",
+      "subject": "李俊杰",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t2/有手套/episode_000000.zarr",
+      "frames": 4165
+    },
+    {
+      "task": "t3",
+      "subject": "李俊杰",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t3/有手套/episode_000000.zarr",
+      "frames": 5161
+    },
+    {
+      "task": "t4",
+      "subject": "李俊杰",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t4/有手套/episode_000000.zarr",
+      "frames": 4849
+    },
+    {
+      "task": "t5",
+      "subject": "李俊杰",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t5/有手套/episode_000000.zarr",
+      "frames": 3830
+    },
+    {
+      "task": "t6",
+      "subject": "李俊杰",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t6/有手套/episode_000000.zarr",
+      "frames": 4404
+    },
+    {
+      "task": "t7",
+      "subject": "李俊杰",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t7/有手套/episode_000000.zarr",
+      "frames": 3958
+    },
+    {
+      "task": "t8",
+      "subject": "李俊杰",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t8/有手套/episode_000000.zarr",
+      "frames": 3571
+    },
+    {
+      "task": "t9",
+      "subject": "李俊杰",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t9/有手套/episode_000000.zarr",
+      "frames": 3890
+    },
+    {
+      "task": "t10",
+      "subject": "李俊杰",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t10/有手套/episode_000000.zarr",
+      "frames": 4046
+    },
+    {
+      "task": "t11",
+      "subject": "李俊杰",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t11/有手套/episode_000000.zarr",
+      "frames": 4022
+    },
+    {
+      "task": "t12",
+      "subject": "李俊杰",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t12/有手套/episode_000000.zarr",
+      "frames": 4050
+    },
+    {
+      "task": "t13",
+      "subject": "李俊杰",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t13/有手套/episode_000000.zarr",
+      "frames": 3890
+    },
+    {
+      "task": "t14",
+      "subject": "李俊杰",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t14/有手套/episode_000000.zarr",
+      "frames": 4682
+    },
+    {
+      "task": "t15",
+      "subject": "李俊杰",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t15/有手套/episode_000000.zarr",
+      "frames": 2829
+    },
+    {
+      "task": "t16",
+      "subject": "李俊杰",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t16/有手套/episode_000000.zarr",
+      "frames": 3771
+    },
+    {
+      "task": "t17",
+      "subject": "李俊杰",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t17/有手套/episode_000000.zarr",
+      "frames": 3112
+    },
+    {
+      "task": "t18",
+      "subject": "李俊杰",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t18/有手套/episode_000000.zarr",
+      "frames": 2998
+    },
+    {
+      "task": "t19",
+      "subject": "李俊杰",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t19/有手套/episode_000000.zarr",
+      "frames": 2071
+    },
+    {
+      "task": "t20",
+      "subject": "李俊杰",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t20/有手套/episode_000000.zarr",
+      "frames": 5768
+    },
+    {
+      "task": "t21",
+      "subject": "李俊杰",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t21/有手套/episode_000000.zarr",
+      "frames": 1892
+    },
+    {
+      "task": "t22",
+      "subject": "李俊杰",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t22/有手套/episode_000000.zarr",
+      "frames": 3195
+    },
+    {
+      "task": "t23",
+      "subject": "李俊杰",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t23/有手套/episode_000000.zarr",
+      "frames": 3872
+    },
+    {
+      "task": "t24",
+      "subject": "李俊杰",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李俊杰/t24/有手套/episode_000000.zarr",
+      "frames": 4455
+    },
+    {
+      "task": "t1",
+      "subject": "李啸海",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t1/有手套/episode_000000.zarr",
+      "frames": 3942
+    },
+    {
+      "task": "t2",
+      "subject": "李啸海",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t2/有手套/episode_000000.zarr",
+      "frames": 4521
+    },
+    {
+      "task": "t3",
+      "subject": "李啸海",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t3/有手套/episode_000000.zarr",
+      "frames": 4575
+    },
+    {
+      "task": "t4",
+      "subject": "李啸海",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t4/有手套/episode_000000.zarr",
+      "frames": 4289
+    },
+    {
+      "task": "t5",
+      "subject": "李啸海",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t5/有手套/episode_000000.zarr",
+      "frames": 3986
+    },
+    {
+      "task": "t6",
+      "subject": "李啸海",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t6/有手套/episode_000000.zarr",
+      "frames": 4153
+    },
+    {
+      "task": "t7",
+      "subject": "李啸海",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t7/有手套/episode_000000.zarr",
+      "frames": 4175
+    },
+    {
+      "task": "t8",
+      "subject": "李啸海",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t8/有手套/episode_000000.zarr",
+      "frames": 3390
+    },
+    {
+      "task": "t9",
+      "subject": "李啸海",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t9/有手套/episode_000000.zarr",
+      "frames": 3289
+    },
+    {
+      "task": "t10",
+      "subject": "李啸海",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t10/有手套/episode_000000.zarr",
+      "frames": 3645
+    },
+    {
+      "task": "t11",
+      "subject": "李啸海",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t11/有手套/episode_000000.zarr",
+      "frames": 4364
+    },
+    {
+      "task": "t12",
+      "subject": "李啸海",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t12/有手套/episode_000000.zarr",
+      "frames": 3434
+    },
+    {
+      "task": "t13",
+      "subject": "李啸海",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t13/有手套/episode_000000.zarr",
+      "frames": 3773
+    },
+    {
+      "task": "t14",
+      "subject": "李啸海",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t14/有手套/episode_000000.zarr",
+      "frames": 3109
+    },
+    {
+      "task": "t15",
+      "subject": "李啸海",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t15/有手套/episode_000000.zarr",
+      "frames": 2464
+    },
+    {
+      "task": "t16",
+      "subject": "李啸海",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t16/有手套/episode_000000.zarr",
+      "frames": 3176
+    },
+    {
+      "task": "t17",
+      "subject": "李啸海",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t17/有手套/episode_000000.zarr",
+      "frames": 3416
+    },
+    {
+      "task": "t18",
+      "subject": "李啸海",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t18/有手套/episode_000000.zarr",
+      "frames": 3396
+    },
+    {
+      "task": "t19",
+      "subject": "李啸海",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t19/有手套/episode_000000.zarr",
+      "frames": 3026
+    },
+    {
+      "task": "t20",
+      "subject": "李啸海",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t20/有手套/episode_000000.zarr",
+      "frames": 4735
+    },
+    {
+      "task": "t21",
+      "subject": "李啸海",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t21/有手套/episode_000000.zarr",
+      "frames": 2225
+    },
+    {
+      "task": "t22",
+      "subject": "李啸海",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t22/有手套/episode_000000.zarr",
+      "frames": 2901
+    },
+    {
+      "task": "t23",
+      "subject": "李啸海",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t23/有手套/episode_000000.zarr",
+      "frames": 3827
+    },
+    {
+      "task": "t24",
+      "subject": "李啸海",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李啸海/t24/有手套/episode_000000.zarr",
+      "frames": 3686
+    },
+    {
+      "task": "t1",
+      "subject": "李得龙",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t1/有手套/episode_000000.zarr",
+      "frames": 6409
+    },
+    {
+      "task": "t2",
+      "subject": "李得龙",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t2/有手套/episode_000000.zarr",
+      "frames": 4938
+    },
+    {
+      "task": "t3",
+      "subject": "李得龙",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t3/有手套/episode_000000.zarr",
+      "frames": 3606
+    },
+    {
+      "task": "t4",
+      "subject": "李得龙",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t4/有手套/episode_000000.zarr",
+      "frames": 3203
+    },
+    {
+      "task": "t5",
+      "subject": "李得龙",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t5/有手套/episode_000000.zarr",
+      "frames": 3094
+    },
+    {
+      "task": "t6",
+      "subject": "李得龙",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t6/有手套/episode_000000.zarr",
+      "frames": 3005
+    },
+    {
+      "task": "t7",
+      "subject": "李得龙",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t7/有手套/episode_000000.zarr",
+      "frames": 2868
+    },
+    {
+      "task": "t8",
+      "subject": "李得龙",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t8/有手套/episode_000000.zarr",
+      "frames": 2930
+    },
+    {
+      "task": "t9",
+      "subject": "李得龙",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t9/有手套/episode_000000.zarr",
+      "frames": 2399
+    },
+    {
+      "task": "t10",
+      "subject": "李得龙",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t10/有手套/episode_000000.zarr",
+      "frames": 2761
+    },
+    {
+      "task": "t11",
+      "subject": "李得龙",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t11/有手套/episode_000000.zarr",
+      "frames": 2610
+    },
+    {
+      "task": "t12",
+      "subject": "李得龙",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t12/有手套/episode_000000.zarr",
+      "frames": 2827
+    },
+    {
+      "task": "t13",
+      "subject": "李得龙",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t13/有手套/episode_000000.zarr",
+      "frames": 3213
+    },
+    {
+      "task": "t14",
+      "subject": "李得龙",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t14/有手套/episode_000000.zarr",
+      "frames": 2622
+    },
+    {
+      "task": "t15",
+      "subject": "李得龙",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t15/有手套/episode_000000.zarr",
+      "frames": 2433
+    },
+    {
+      "task": "t16",
+      "subject": "李得龙",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t16/有手套/episode_000000.zarr",
+      "frames": 2486
+    },
+    {
+      "task": "t17",
+      "subject": "李得龙",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t17/有手套/episode_000000.zarr",
+      "frames": 3132
+    },
+    {
+      "task": "t18",
+      "subject": "李得龙",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t18/有手套/episode_000000.zarr",
+      "frames": 3454
+    },
+    {
+      "task": "t19",
+      "subject": "李得龙",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t19/有手套/episode_000000.zarr",
+      "frames": 3223
+    },
+    {
+      "task": "t20",
+      "subject": "李得龙",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t20/有手套/episode_000000.zarr",
+      "frames": 3731
+    },
+    {
+      "task": "t21",
+      "subject": "李得龙",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t21/有手套/episode_000000.zarr",
+      "frames": 1932
+    },
+    {
+      "task": "t22",
+      "subject": "李得龙",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t22/有手套/episode_000000.zarr",
+      "frames": 2475
+    },
+    {
+      "task": "t23",
+      "subject": "李得龙",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t23/有手套/episode_000000.zarr",
+      "frames": 3625
+    },
+    {
+      "task": "t24",
+      "subject": "李得龙",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/李得龙/t24/有手套/episode_000000.zarr",
+      "frames": 3846
+    },
+    {
+      "task": "t1",
+      "subject": "杨海跃",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t1/有手套/episode_000000.zarr",
+      "frames": 3860
+    },
+    {
+      "task": "t2",
+      "subject": "杨海跃",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t2/有手套/episode_000000.zarr",
+      "frames": 5147
+    },
+    {
+      "task": "t3",
+      "subject": "杨海跃",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t3/有手套/episode_000000.zarr",
+      "frames": 3877
+    },
+    {
+      "task": "t4",
+      "subject": "杨海跃",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t4/有手套/episode_000000.zarr",
+      "frames": 3074
+    },
+    {
+      "task": "t5",
+      "subject": "杨海跃",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t5/有手套/episode_000000.zarr",
+      "frames": 3364
+    },
+    {
+      "task": "t6",
+      "subject": "杨海跃",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t6/有手套/episode_000000.zarr",
+      "frames": 3162
+    },
+    {
+      "task": "t7",
+      "subject": "杨海跃",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t7/有手套/episode_000000.zarr",
+      "frames": 2794
+    },
+    {
+      "task": "t8",
+      "subject": "杨海跃",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t8/有手套/episode_000000.zarr",
+      "frames": 2721
+    },
+    {
+      "task": "t9",
+      "subject": "杨海跃",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t9/有手套/episode_000000.zarr",
+      "frames": 3023
+    },
+    {
+      "task": "t10",
+      "subject": "杨海跃",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t10/有手套/episode_000000.zarr",
+      "frames": 2833
+    },
+    {
+      "task": "t11",
+      "subject": "杨海跃",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t11/有手套/episode_000000.zarr",
+      "frames": 2765
+    },
+    {
+      "task": "t12",
+      "subject": "杨海跃",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t12/有手套/episode_000000.zarr",
+      "frames": 2832
+    },
+    {
+      "task": "t13",
+      "subject": "杨海跃",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t13/有手套/episode_000000.zarr",
+      "frames": 3299
+    },
+    {
+      "task": "t14",
+      "subject": "杨海跃",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t14/有手套/episode_000000.zarr",
+      "frames": 2902
+    },
+    {
+      "task": "t15",
+      "subject": "杨海跃",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t15/有手套/episode_000000.zarr",
+      "frames": 2589
+    },
+    {
+      "task": "t16",
+      "subject": "杨海跃",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t16/有手套/episode_000000.zarr",
+      "frames": 2914
+    },
+    {
+      "task": "t17",
+      "subject": "杨海跃",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t17/有手套/episode_000000.zarr",
+      "frames": 2828
+    },
+    {
+      "task": "t18",
+      "subject": "杨海跃",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t18/有手套/episode_000000.zarr",
+      "frames": 3838
+    },
+    {
+      "task": "t19",
+      "subject": "杨海跃",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t19/有手套/episode_000000.zarr",
+      "frames": 1594
+    },
+    {
+      "task": "t20",
+      "subject": "杨海跃",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t20/有手套/episode_000000.zarr",
+      "frames": 2138
+    },
+    {
+      "task": "t21",
+      "subject": "杨海跃",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t21/有手套/episode_000000.zarr",
+      "frames": 1775
+    },
+    {
+      "task": "t22",
+      "subject": "杨海跃",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t22/有手套/episode_000000.zarr",
+      "frames": 2390
+    },
+    {
+      "task": "t23",
+      "subject": "杨海跃",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t23/有手套/episode_000000.zarr",
+      "frames": 3661
+    },
+    {
+      "task": "t24",
+      "subject": "杨海跃",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/杨海跃/t24/有手套/episode_000000.zarr",
+      "frames": 3666
+    },
+    {
+      "task": "t1",
+      "subject": "梁沃林",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t1/有手套/episode_000000.zarr",
+      "frames": 4198
+    },
+    {
+      "task": "t2",
+      "subject": "梁沃林",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t2/有手套/episode_000000.zarr",
+      "frames": 4279
+    },
+    {
+      "task": "t3",
+      "subject": "梁沃林",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t3/有手套/episode_000000.zarr",
+      "frames": 5263
+    },
+    {
+      "task": "t5",
+      "subject": "梁沃林",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t5/有手套/episode_000000.zarr",
+      "frames": 6096
+    },
+    {
+      "task": "t6",
+      "subject": "梁沃林",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t6/有手套/episode_000000.zarr",
+      "frames": 6087
+    },
+    {
+      "task": "t7",
+      "subject": "梁沃林",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t7/有手套/episode_000000.zarr",
+      "frames": 5447
+    },
+    {
+      "task": "t8",
+      "subject": "梁沃林",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t8/有手套/episode_000000.zarr",
+      "frames": 4971
+    },
+    {
+      "task": "t9",
+      "subject": "梁沃林",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t9/有手套/episode_000000.zarr",
+      "frames": 9467
+    },
+    {
+      "task": "t10",
+      "subject": "梁沃林",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t10/有手套/episode_000000.zarr",
+      "frames": 9059
+    },
+    {
+      "task": "t11",
+      "subject": "梁沃林",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t11/有手套/episode_000000.zarr",
+      "frames": 4016
+    },
+    {
+      "task": "t12",
+      "subject": "梁沃林",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t12/有手套/episode_000000.zarr",
+      "frames": 6621
+    },
+    {
+      "task": "t13",
+      "subject": "梁沃林",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t13/有手套/episode_000000.zarr",
+      "frames": 8463
+    },
+    {
+      "task": "t14",
+      "subject": "梁沃林",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t14/有手套/episode_000000.zarr",
+      "frames": 3158
+    },
+    {
+      "task": "t15",
+      "subject": "梁沃林",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t15/有手套/episode_000000.zarr",
+      "frames": 2949
+    },
+    {
+      "task": "t16",
+      "subject": "梁沃林",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t16/有手套/episode_000000.zarr",
+      "frames": 4152
+    },
+    {
+      "task": "t17",
+      "subject": "梁沃林",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t17/有手套/episode_000000.zarr",
+      "frames": 10115
+    },
+    {
+      "task": "t18",
+      "subject": "梁沃林",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t18/有手套/episode_000000.zarr",
+      "frames": 3516
+    },
+    {
+      "task": "t19",
+      "subject": "梁沃林",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t19/有手套/episode_000000.zarr",
+      "frames": 2459
+    },
+    {
+      "task": "t20",
+      "subject": "梁沃林",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t20/有手套/episode_000000.zarr",
+      "frames": 4424
+    },
+    {
+      "task": "t21",
+      "subject": "梁沃林",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t21/有手套/episode_000000.zarr",
+      "frames": 2486
+    },
+    {
+      "task": "t22",
+      "subject": "梁沃林",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t22/有手套/episode_000000.zarr",
+      "frames": 1629
+    },
+    {
+      "task": "t23",
+      "subject": "梁沃林",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t23/有手套/episode_000000.zarr",
+      "frames": 3632
+    },
+    {
+      "task": "t24",
+      "subject": "梁沃林",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/梁沃林/t24/有手套/episode_000000.zarr",
+      "frames": 3744
+    },
+    {
+      "task": "t1",
+      "subject": "王奕博",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t1/有手套/episode_000000.zarr",
+      "frames": 3254
+    },
+    {
+      "task": "t2",
+      "subject": "王奕博",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t2/有手套/episode_000000.zarr",
+      "frames": 4148
+    },
+    {
+      "task": "t3",
+      "subject": "王奕博",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t3/有手套/episode_000000.zarr",
+      "frames": 3019
+    },
+    {
+      "task": "t4",
+      "subject": "王奕博",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t4/有手套/episode_000000.zarr",
+      "frames": 3522
+    },
+    {
+      "task": "t5",
+      "subject": "王奕博",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t5/有手套/episode_000000.zarr",
+      "frames": 2972
+    },
+    {
+      "task": "t6",
+      "subject": "王奕博",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t6/有手套/episode_000000.zarr",
+      "frames": 3156
+    },
+    {
+      "task": "t7",
+      "subject": "王奕博",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t7/有手套/episode_000000.zarr",
+      "frames": 2982
+    },
+    {
+      "task": "t8",
+      "subject": "王奕博",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t8/有手套/episode_000000.zarr",
+      "frames": 2835
+    },
+    {
+      "task": "t9",
+      "subject": "王奕博",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t9/有手套/episode_000000.zarr",
+      "frames": 3231
+    },
+    {
+      "task": "t10",
+      "subject": "王奕博",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t10/有手套/episode_000000.zarr",
+      "frames": 2866
+    },
+    {
+      "task": "t11",
+      "subject": "王奕博",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t11/有手套/episode_000000.zarr",
+      "frames": 3326
+    },
+    {
+      "task": "t12",
+      "subject": "王奕博",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t12/有手套/episode_000000.zarr",
+      "frames": 3274
+    },
+    {
+      "task": "t13",
+      "subject": "王奕博",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t13/有手套/episode_000000.zarr",
+      "frames": 3435
+    },
+    {
+      "task": "t14",
+      "subject": "王奕博",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t14/有手套/episode_000000.zarr",
+      "frames": 3112
+    },
+    {
+      "task": "t15",
+      "subject": "王奕博",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t15/有手套/episode_000000.zarr",
+      "frames": 2414
+    },
+    {
+      "task": "t16",
+      "subject": "王奕博",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t16/有手套/episode_000000.zarr",
+      "frames": 3860
+    },
+    {
+      "task": "t17",
+      "subject": "王奕博",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t17/有手套/episode_000000.zarr",
+      "frames": 3454
+    },
+    {
+      "task": "t18",
+      "subject": "王奕博",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t18/有手套/episode_000000.zarr",
+      "frames": 3664
+    },
+    {
+      "task": "t19",
+      "subject": "王奕博",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t19/有手套/episode_000000.zarr",
+      "frames": 1752
+    },
+    {
+      "task": "t20",
+      "subject": "王奕博",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t20/有手套/episode_000000.zarr",
+      "frames": 4629
+    },
+    {
+      "task": "t21",
+      "subject": "王奕博",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t21/有手套/episode_000000.zarr",
+      "frames": 2576
+    },
+    {
+      "task": "t22",
+      "subject": "王奕博",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t22/有手套/episode_000000.zarr",
+      "frames": 3088
+    },
+    {
+      "task": "t23",
+      "subject": "王奕博",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t23/有手套/episode_000000.zarr",
+      "frames": 3707
+    },
+    {
+      "task": "t24",
+      "subject": "王奕博",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/王奕博/t24/有手套/episode_000000.zarr",
+      "frames": 3673
+    },
+    {
+      "task": "t1",
+      "subject": "白钰婷",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t1/有手套/episode_000000.zarr",
+      "frames": 1554
+    },
+    {
+      "task": "t2",
+      "subject": "白钰婷",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t2/有手套/episode_000000.zarr",
+      "frames": 1561
+    },
+    {
+      "task": "t3",
+      "subject": "白钰婷",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t3/有手套/episode_000000.zarr",
+      "frames": 1967
+    },
+    {
+      "task": "t4",
+      "subject": "白钰婷",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t4/有手套/episode_000000.zarr",
+      "frames": 1444
+    },
+    {
+      "task": "t5",
+      "subject": "白钰婷",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t5/有手套/episode_000000.zarr",
+      "frames": 1516
+    },
+    {
+      "task": "t6",
+      "subject": "白钰婷",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t6/有手套/episode_000000.zarr",
+      "frames": 1356
+    },
+    {
+      "task": "t7",
+      "subject": "白钰婷",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t7/有手套/episode_000000.zarr",
+      "frames": 1411
+    },
+    {
+      "task": "t8",
+      "subject": "白钰婷",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t8/有手套/episode_000000.zarr",
+      "frames": 1553
+    },
+    {
+      "task": "t9",
+      "subject": "白钰婷",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t9/有手套/episode_000000.zarr",
+      "frames": 1554
+    },
+    {
+      "task": "t10",
+      "subject": "白钰婷",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t10/有手套/episode_000000.zarr",
+      "frames": 1799
+    },
+    {
+      "task": "t11",
+      "subject": "白钰婷",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t11/有手套/episode_000000.zarr",
+      "frames": 1548
+    },
+    {
+      "task": "t12",
+      "subject": "白钰婷",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t12/有手套/episode_000000.zarr",
+      "frames": 1706
+    },
+    {
+      "task": "t13",
+      "subject": "白钰婷",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t13/有手套/episode_000000.zarr",
+      "frames": 1458
+    },
+    {
+      "task": "t14",
+      "subject": "白钰婷",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t14/有手套/episode_000000.zarr",
+      "frames": 1602
+    },
+    {
+      "task": "t15",
+      "subject": "白钰婷",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t15/有手套/episode_000000.zarr",
+      "frames": 1658
+    },
+    {
+      "task": "t16",
+      "subject": "白钰婷",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t16/有手套/episode_000000.zarr",
+      "frames": 1555
+    },
+    {
+      "task": "t17",
+      "subject": "白钰婷",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t17/有手套/episode_000000.zarr",
+      "frames": 1556
+    },
+    {
+      "task": "t18",
+      "subject": "白钰婷",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t18/有手套/episode_000000.zarr",
+      "frames": 1728
+    },
+    {
+      "task": "t19",
+      "subject": "白钰婷",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t19/有手套/episode_000000.zarr",
+      "frames": 1177
+    },
+    {
+      "task": "t20",
+      "subject": "白钰婷",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t20/有手套/episode_000000.zarr",
+      "frames": 1468
+    },
+    {
+      "task": "t21",
+      "subject": "白钰婷",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t21/有手套/episode_000000.zarr",
+      "frames": 1123
+    },
+    {
+      "task": "t22",
+      "subject": "白钰婷",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t22/有手套/episode_000000.zarr",
+      "frames": 1257
+    },
+    {
+      "task": "t22",
+      "subject": "白钰婷",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t22/有手套/episode_000001.zarr",
+      "frames": 1177
+    },
+    {
+      "task": "t23",
+      "subject": "白钰婷",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t23/有手套/episode_000000.zarr",
+      "frames": 3885
+    },
+    {
+      "task": "t24",
+      "subject": "白钰婷",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/白钰婷/t24/有手套/episode_000000.zarr",
+      "frames": 3698
+    },
+    {
+      "task": "t1",
+      "subject": "胡晓帆",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t1/有手套/episode_000000.zarr",
+      "frames": 2084
+    },
+    {
+      "task": "t2",
+      "subject": "胡晓帆",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t2/有手套/episode_000000.zarr",
+      "frames": 1802
+    },
+    {
+      "task": "t3",
+      "subject": "胡晓帆",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t3/有手套/episode_000000.zarr",
+      "frames": 2205
+    },
+    {
+      "task": "t4",
+      "subject": "胡晓帆",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t4/有手套/episode_000000.zarr",
+      "frames": 2021
+    },
+    {
+      "task": "t5",
+      "subject": "胡晓帆",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t5/有手套/episode_000000.zarr",
+      "frames": 1645
+    },
+    {
+      "task": "t6",
+      "subject": "胡晓帆",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t6/有手套/episode_000000.zarr",
+      "frames": 2313
+    },
+    {
+      "task": "t7",
+      "subject": "胡晓帆",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t7/有手套/episode_000000.zarr",
+      "frames": 1631
+    },
+    {
+      "task": "t8",
+      "subject": "胡晓帆",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t8/有手套/episode_000000.zarr",
+      "frames": 1931
+    },
+    {
+      "task": "t9",
+      "subject": "胡晓帆",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t9/有手套/episode_000000.zarr",
+      "frames": 2242
+    },
+    {
+      "task": "t10",
+      "subject": "胡晓帆",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t10/有手套/episode_000000.zarr",
+      "frames": 2923
+    },
+    {
+      "task": "t11",
+      "subject": "胡晓帆",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t11/有手套/episode_000000.zarr",
+      "frames": 2404
+    },
+    {
+      "task": "t12",
+      "subject": "胡晓帆",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t12/有手套/episode_000000.zarr",
+      "frames": 1808
+    },
+    {
+      "task": "t13",
+      "subject": "胡晓帆",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t13/有手套/episode_000000.zarr",
+      "frames": 2161
+    },
+    {
+      "task": "t14",
+      "subject": "胡晓帆",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t14/有手套/episode_000000.zarr",
+      "frames": 1790
+    },
+    {
+      "task": "t15",
+      "subject": "胡晓帆",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t15/有手套/episode_000000.zarr",
+      "frames": 2355
+    },
+    {
+      "task": "t16",
+      "subject": "胡晓帆",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t16/有手套/episode_000000.zarr",
+      "frames": 1647
+    },
+    {
+      "task": "t17",
+      "subject": "胡晓帆",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t17/有手套/episode_000000.zarr",
+      "frames": 1659
+    },
+    {
+      "task": "t18",
+      "subject": "胡晓帆",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t18/有手套/episode_000000.zarr",
+      "frames": 2346
+    },
+    {
+      "task": "t19",
+      "subject": "胡晓帆",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t19/有手套/episode_000000.zarr",
+      "frames": 1788
+    },
+    {
+      "task": "t20",
+      "subject": "胡晓帆",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t20/有手套/episode_000000.zarr",
+      "frames": 3125
+    },
+    {
+      "task": "t21",
+      "subject": "胡晓帆",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t21/有手套/episode_000000.zarr",
+      "frames": 935
+    },
+    {
+      "task": "t22",
+      "subject": "胡晓帆",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t22/有手套/episode_000000.zarr",
+      "frames": 1231
+    },
+    {
+      "task": "t23",
+      "subject": "胡晓帆",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t23/有手套/episode_000000.zarr",
+      "frames": 3714
+    },
+    {
+      "task": "t24",
+      "subject": "胡晓帆",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡晓帆/t24/有手套/episode_000000.zarr",
+      "frames": 4511
+    },
+    {
+      "task": "t1",
+      "subject": "胡越翔",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t1/有手套/episode_000000.zarr",
+      "frames": 3728
+    },
+    {
+      "task": "t2",
+      "subject": "胡越翔",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t2/有手套/episode_000000.zarr",
+      "frames": 3642
+    },
+    {
+      "task": "t3",
+      "subject": "胡越翔",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t3/有手套/episode_000000.zarr",
+      "frames": 3472
+    },
+    {
+      "task": "t4",
+      "subject": "胡越翔",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t4/有手套/episode_000000.zarr",
+      "frames": 3424
+    },
+    {
+      "task": "t5",
+      "subject": "胡越翔",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t5/有手套/episode_000000.zarr",
+      "frames": 3526
+    },
+    {
+      "task": "t6",
+      "subject": "胡越翔",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t6/有手套/episode_000000.zarr",
+      "frames": 3428
+    },
+    {
+      "task": "t7",
+      "subject": "胡越翔",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t7/有手套/episode_000000.zarr",
+      "frames": 2977
+    },
+    {
+      "task": "t8",
+      "subject": "胡越翔",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t8/有手套/episode_000000.zarr",
+      "frames": 2917
+    },
+    {
+      "task": "t9",
+      "subject": "胡越翔",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t9/有手套/episode_000000.zarr",
+      "frames": 3281
+    },
+    {
+      "task": "t10",
+      "subject": "胡越翔",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t10/有手套/episode_000000.zarr",
+      "frames": 4378
+    },
+    {
+      "task": "t11",
+      "subject": "胡越翔",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t11/有手套/episode_000000.zarr",
+      "frames": 3073
+    },
+    {
+      "task": "t12",
+      "subject": "胡越翔",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t12/有手套/episode_000000.zarr",
+      "frames": 3015
+    },
+    {
+      "task": "t13",
+      "subject": "胡越翔",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t13/有手套/episode_000000.zarr",
+      "frames": 3253
+    },
+    {
+      "task": "t14",
+      "subject": "胡越翔",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t14/有手套/episode_000000.zarr",
+      "frames": 3029
+    },
+    {
+      "task": "t15",
+      "subject": "胡越翔",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t15/有手套/episode_000000.zarr",
+      "frames": 2467
+    },
+    {
+      "task": "t16",
+      "subject": "胡越翔",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t16/有手套/episode_000000.zarr",
+      "frames": 3831
+    },
+    {
+      "task": "t17",
+      "subject": "胡越翔",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t17/有手套/episode_000000.zarr",
+      "frames": 2940
+    },
+    {
+      "task": "t18",
+      "subject": "胡越翔",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t18/有手套/episode_000000.zarr",
+      "frames": 3137
+    },
+    {
+      "task": "t19",
+      "subject": "胡越翔",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t19/有手套/episode_000000.zarr",
+      "frames": 3361
+    },
+    {
+      "task": "t20",
+      "subject": "胡越翔",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t20/有手套/episode_000000.zarr",
+      "frames": 2728
+    },
+    {
+      "task": "t21",
+      "subject": "胡越翔",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t21/有手套/episode_000000.zarr",
+      "frames": 1750
+    },
+    {
+      "task": "t22",
+      "subject": "胡越翔",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t22/有手套/episode_000000.zarr",
+      "frames": 2021
+    },
+    {
+      "task": "t23",
+      "subject": "胡越翔",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t23/有手套/episode_000000.zarr",
+      "frames": 3660
+    },
+    {
+      "task": "t24",
+      "subject": "胡越翔",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胡越翔/t24/有手套/episode_000000.zarr",
+      "frames": 3529
+    },
+    {
+      "task": "t1",
+      "subject": "胥梓恒",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t1/有手套/episode_000000.zarr",
+      "frames": 2063
+    },
+    {
+      "task": "t2",
+      "subject": "胥梓恒",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t2/有手套/episode_000000.zarr",
+      "frames": 2353
+    },
+    {
+      "task": "t3",
+      "subject": "胥梓恒",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t3/有手套/episode_000000.zarr",
+      "frames": 2425
+    },
+    {
+      "task": "t4",
+      "subject": "胥梓恒",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t4/有手套/episode_000000.zarr",
+      "frames": 2412
+    },
+    {
+      "task": "t5",
+      "subject": "胥梓恒",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t5/有手套/episode_000000.zarr",
+      "frames": 2005
+    },
+    {
+      "task": "t6",
+      "subject": "胥梓恒",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t6/有手套/episode_000000.zarr",
+      "frames": 2325
+    },
+    {
+      "task": "t7",
+      "subject": "胥梓恒",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t7/有手套/episode_000000.zarr",
+      "frames": 2113
+    },
+    {
+      "task": "t8",
+      "subject": "胥梓恒",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t8/有手套/episode_000000.zarr",
+      "frames": 2111
+    },
+    {
+      "task": "t9",
+      "subject": "胥梓恒",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t9/有手套/episode_000000.zarr",
+      "frames": 2124
+    },
+    {
+      "task": "t10",
+      "subject": "胥梓恒",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t10/有手套/episode_000000.zarr",
+      "frames": 2896
+    },
+    {
+      "task": "t11",
+      "subject": "胥梓恒",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t11/有手套/episode_000000.zarr",
+      "frames": 2033
+    },
+    {
+      "task": "t12",
+      "subject": "胥梓恒",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t12/有手套/episode_000000.zarr",
+      "frames": 1997
+    },
+    {
+      "task": "t13",
+      "subject": "胥梓恒",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t13/有手套/episode_000000.zarr",
+      "frames": 2614
+    },
+    {
+      "task": "t14",
+      "subject": "胥梓恒",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t14/有手套/episode_000000.zarr",
+      "frames": 2524
+    },
+    {
+      "task": "t15",
+      "subject": "胥梓恒",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t15/有手套/episode_000000.zarr",
+      "frames": 2207
+    },
+    {
+      "task": "t16",
+      "subject": "胥梓恒",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t16/有手套/episode_000000.zarr",
+      "frames": 2389
+    },
+    {
+      "task": "t17",
+      "subject": "胥梓恒",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t17/有手套/episode_000000.zarr",
+      "frames": 2317
+    },
+    {
+      "task": "t18",
+      "subject": "胥梓恒",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t18/有手套/episode_000000.zarr",
+      "frames": 2943
+    },
+    {
+      "task": "t19",
+      "subject": "胥梓恒",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t19/有手套/episode_000000.zarr",
+      "frames": 1489
+    },
+    {
+      "task": "t20",
+      "subject": "胥梓恒",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t20/有手套/episode_000000.zarr",
+      "frames": 2104
+    },
+    {
+      "task": "t21",
+      "subject": "胥梓恒",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t21/有手套/episode_000000.zarr",
+      "frames": 2130
+    },
+    {
+      "task": "t23",
+      "subject": "胥梓恒",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t23/有手套/episode_000000.zarr",
+      "frames": 3676
+    },
+    {
+      "task": "t24",
+      "subject": "胥梓恒",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/胥梓恒/t24/有手套/episode_000000.zarr",
+      "frames": 3927
+    },
+    {
+      "task": "t1",
+      "subject": "英雄峰",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t1/有手套/episode_000000.zarr",
+      "frames": 4668
+    },
+    {
+      "task": "t2",
+      "subject": "英雄峰",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t2/有手套/episode_000000.zarr",
+      "frames": 3762
+    },
+    {
+      "task": "t12",
+      "subject": "t3",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t3/t12/有手套/episode_000000.zarr",
+      "frames": 3874
+    },
+    {
+      "task": "t3",
+      "subject": "英雄峰",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t3/有手套/episode_000000.zarr",
+      "frames": 4193
+    },
+    {
+      "task": "t4",
+      "subject": "英雄峰",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t4/有手套/episode_000000.zarr",
+      "frames": 3700
+    },
+    {
+      "task": "t5",
+      "subject": "英雄峰",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t5/有手套/episode_000000.zarr",
+      "frames": 4093
+    },
+    {
+      "task": "t6",
+      "subject": "英雄峰",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t6/有手套/episode_000000.zarr",
+      "frames": 3892
+    },
+    {
+      "task": "t7",
+      "subject": "英雄峰",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t7/有手套/episode_000000.zarr",
+      "frames": 4218
+    },
+    {
+      "task": "t8",
+      "subject": "英雄峰",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t8/有手套/episode_000000.zarr",
+      "frames": 4052
+    },
+    {
+      "task": "t9",
+      "subject": "英雄峰",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t9/有手套/episode_000000.zarr",
+      "frames": 4021
+    },
+    {
+      "task": "t10",
+      "subject": "英雄峰",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t10/有手套/episode_000000.zarr",
+      "frames": 4062
+    },
+    {
+      "task": "t11",
+      "subject": "英雄峰",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t11/有手套/episode_000000.zarr",
+      "frames": 3765
+    },
+    {
+      "task": "t13",
+      "subject": "英雄峰",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t13/有手套/episode_000000.zarr",
+      "frames": 4019
+    },
+    {
+      "task": "t14",
+      "subject": "英雄峰",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t14/有手套/episode_000000.zarr",
+      "frames": 4343
+    },
+    {
+      "task": "t15",
+      "subject": "英雄峰",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t15/有手套/episode_000000.zarr",
+      "frames": 2944
+    },
+    {
+      "task": "t16",
+      "subject": "英雄峰",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t16/有手套/episode_000000.zarr",
+      "frames": 4320
+    },
+    {
+      "task": "t17",
+      "subject": "英雄峰",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t17/有手套/episode_000000.zarr",
+      "frames": 4280
+    },
+    {
+      "task": "t18",
+      "subject": "英雄峰",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t18/有手套/episode_000000.zarr",
+      "frames": 4172
+    },
+    {
+      "task": "t19",
+      "subject": "英雄峰",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t19/有手套/episode_000000.zarr",
+      "frames": 1903
+    },
+    {
+      "task": "t20",
+      "subject": "英雄峰",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t20/有手套/episode_000000.zarr",
+      "frames": 2885
+    },
+    {
+      "task": "t21",
+      "subject": "英雄峰",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t21/有手套/episode_000000.zarr",
+      "frames": 2043
+    },
+    {
+      "task": "t22",
+      "subject": "英雄峰",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t22/有手套/episode_000000.zarr",
+      "frames": 3561
+    },
+    {
+      "task": "t23",
+      "subject": "英雄峰",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t23/有手套/episode_000000.zarr",
+      "frames": 3716
+    },
+    {
+      "task": "t24",
+      "subject": "英雄峰",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/英雄峰/t24/有手套/episode_000000.zarr",
+      "frames": 3560
+    },
+    {
+      "task": "t1",
+      "subject": "蔡政特",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t1/有手套/episode_000000.zarr",
+      "frames": 4835
+    },
+    {
+      "task": "t2",
+      "subject": "蔡政特",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t2/有手套/episode_000000.zarr",
+      "frames": 4642
+    },
+    {
+      "task": "t3",
+      "subject": "蔡政特",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t3/有手套/episode_000000.zarr",
+      "frames": 4383
+    },
+    {
+      "task": "t4",
+      "subject": "蔡政特",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t4/有手套/episode_000000.zarr",
+      "frames": 4395
+    },
+    {
+      "task": "t5",
+      "subject": "蔡政特",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t5/有手套/episode_000000.zarr",
+      "frames": 4407
+    },
+    {
+      "task": "t6",
+      "subject": "蔡政特",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t6/有手套/episode_000000.zarr",
+      "frames": 4506
+    },
+    {
+      "task": "t7",
+      "subject": "蔡政特",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t7/有手套/episode_000000.zarr",
+      "frames": 4165
+    },
+    {
+      "task": "t8",
+      "subject": "蔡政特",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t8/有手套/episode_000000.zarr",
+      "frames": 4349
+    },
+    {
+      "task": "t9",
+      "subject": "蔡政特",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t9/有手套/episode_000000.zarr",
+      "frames": 4313
+    },
+    {
+      "task": "t10",
+      "subject": "蔡政特",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t10/有手套/episode_000000.zarr",
+      "frames": 4283
+    },
+    {
+      "task": "t11",
+      "subject": "蔡政特",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t11/有手套/episode_000000.zarr",
+      "frames": 4420
+    },
+    {
+      "task": "t12",
+      "subject": "蔡政特",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t12/有手套/episode_000000.zarr",
+      "frames": 4062
+    },
+    {
+      "task": "t13",
+      "subject": "蔡政特",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t13/有手套/episode_000000.zarr",
+      "frames": 4333
+    },
+    {
+      "task": "t14",
+      "subject": "蔡政特",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t14/有手套/episode_000000.zarr",
+      "frames": 4199
+    },
+    {
+      "task": "t15",
+      "subject": "蔡政特",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t15/有手套/episode_000000.zarr",
+      "frames": 3074
+    },
+    {
+      "task": "t16",
+      "subject": "蔡政特",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t16/有手套/episode_000000.zarr",
+      "frames": 3943
+    },
+    {
+      "task": "t17",
+      "subject": "蔡政特",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t17/有手套/episode_000000.zarr",
+      "frames": 4324
+    },
+    {
+      "task": "t18",
+      "subject": "蔡政特",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t18/有手套/episode_000000.zarr",
+      "frames": 3557
+    },
+    {
+      "task": "t19",
+      "subject": "蔡政特",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t19/有手套/episode_000000.zarr",
+      "frames": 3103
+    },
+    {
+      "task": "t20",
+      "subject": "蔡政特",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t20/有手套/episode_000000.zarr",
+      "frames": 2766
+    },
+    {
+      "task": "t21",
+      "subject": "蔡政特",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t21/有手套/episode_000000.zarr",
+      "frames": 3538
+    },
+    {
+      "task": "t22",
+      "subject": "蔡政特",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t22/有手套/episode_000000.zarr",
+      "frames": 3914
+    },
+    {
+      "task": "t23",
+      "subject": "蔡政特",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t23/有手套/episode_000000.zarr",
+      "frames": 3782
+    },
+    {
+      "task": "t24",
+      "subject": "蔡政特",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡政特/t24/有手套/episode_000000.zarr",
+      "frames": 3727
+    },
+    {
+      "task": "t1",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t1/有手套/episode_000000.zarr",
+      "frames": 3860
+    },
+    {
+      "task": "t2",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t2/有手套/episode_000000.zarr",
+      "frames": 3558
+    },
+    {
+      "task": "t3",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t3/有手套/episode_000000.zarr",
+      "frames": 3909
+    },
+    {
+      "task": "t4",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t4/有手套/episode_000000.zarr",
+      "frames": 3372
+    },
+    {
+      "task": "t5",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t5/有手套/episode_000000.zarr",
+      "frames": 4059
+    },
+    {
+      "task": "t6",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t6/有手套/episode_000000.zarr",
+      "frames": 4370
+    },
+    {
+      "task": "t7",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t7/有手套/episode_000000.zarr",
+      "frames": 3790
+    },
+    {
+      "task": "t8",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t8/有手套/episode_000000.zarr",
+      "frames": 3686
+    },
+    {
+      "task": "t9",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t9/有手套/episode_000000.zarr",
+      "frames": 3526
+    },
+    {
+      "task": "t10",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t10/有手套/episode_000000.zarr",
+      "frames": 3816
+    },
+    {
+      "task": "t11",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t11/有手套/episode_000000.zarr",
+      "frames": 3124
+    },
+    {
+      "task": "t12",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t12/有手套/episode_000000.zarr",
+      "frames": 3529
+    },
+    {
+      "task": "t13",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t13/有手套/episode_000000.zarr",
+      "frames": 3884
+    },
+    {
+      "task": "t14",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t14/有手套/episode_000000.zarr",
+      "frames": 3676
+    },
+    {
+      "task": "t15",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t15/有手套/episode_000000.zarr",
+      "frames": 2562
+    },
+    {
+      "task": "t16",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t16/有手套/episode_000000.zarr",
+      "frames": 3294
+    },
+    {
+      "task": "t17",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t17/有手套/episode_000000.zarr",
+      "frames": 3978
+    },
+    {
+      "task": "t18",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t18/有手套/episode_000000.zarr",
+      "frames": 3392
+    },
+    {
+      "task": "t19",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t19/有手套/episode_000000.zarr",
+      "frames": 2736
+    },
+    {
+      "task": "t20",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t20/有手套/episode_000000.zarr",
+      "frames": 5139
+    },
+    {
+      "task": "t21",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t21/有手套/episode_000000.zarr",
+      "frames": 3082
+    },
+    {
+      "task": "t22",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t22/有手套/episode_000000.zarr",
+      "frames": 3221
+    },
+    {
+      "task": "t23",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t23/有手套/episode_000000.zarr",
+      "frames": 3703
+    },
+    {
+      "task": "t24",
+      "subject": "蔡轶桦#",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/蔡轶桦#/t24/有手套/episode_000000.zarr",
+      "frames": 3777
+    },
+    {
+      "task": "t1",
+      "subject": "谢骏奇",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t1/有手套/episode_000000.zarr",
+      "frames": 3067
+    },
+    {
+      "task": "t2",
+      "subject": "谢骏奇",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t2/有手套/episode_000000.zarr",
+      "frames": 3019
+    },
+    {
+      "task": "t3",
+      "subject": "谢骏奇",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t3/有手套/episode_000000.zarr",
+      "frames": 2900
+    },
+    {
+      "task": "t4",
+      "subject": "谢骏奇",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t4/有手套/episode_000000.zarr",
+      "frames": 2853
+    },
+    {
+      "task": "t5",
+      "subject": "谢骏奇",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t5/有手套/episode_000000.zarr",
+      "frames": 2691
+    },
+    {
+      "task": "t6",
+      "subject": "谢骏奇",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t6/有手套/episode_000000.zarr",
+      "frames": 2623
+    },
+    {
+      "task": "t7",
+      "subject": "谢骏奇",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t7/有手套/episode_000000.zarr",
+      "frames": 2470
+    },
+    {
+      "task": "t8",
+      "subject": "谢骏奇",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t8/有手套/episode_000000.zarr",
+      "frames": 2409
+    },
+    {
+      "task": "t9",
+      "subject": "谢骏奇",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t9/有手套/episode_000000.zarr",
+      "frames": 2964
+    },
+    {
+      "task": "t10",
+      "subject": "谢骏奇",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t10/有手套/episode_000000.zarr",
+      "frames": 2530
+    },
+    {
+      "task": "t11",
+      "subject": "谢骏奇",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t11/有手套/episode_000000.zarr",
+      "frames": 2943
+    },
+    {
+      "task": "t12",
+      "subject": "谢骏奇",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t12/有手套/episode_000000.zarr",
+      "frames": 2670
+    },
+    {
+      "task": "t13",
+      "subject": "谢骏奇",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t13/有手套/episode_000000.zarr",
+      "frames": 2788
+    },
+    {
+      "task": "t14",
+      "subject": "谢骏奇",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t14/有手套/episode_000000.zarr",
+      "frames": 2742
+    },
+    {
+      "task": "t15",
+      "subject": "谢骏奇",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t15/有手套/episode_000000.zarr",
+      "frames": 2503
+    },
+    {
+      "task": "t16",
+      "subject": "谢骏奇",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t16/有手套/episode_000000.zarr",
+      "frames": 2587
+    },
+    {
+      "task": "t17",
+      "subject": "谢骏奇",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t17/有手套/episode_000000.zarr",
+      "frames": 3047
+    },
+    {
+      "task": "t18",
+      "subject": "谢骏奇",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t18/有手套/episode_000000.zarr",
+      "frames": 2805
+    },
+    {
+      "task": "t19",
+      "subject": "谢骏奇",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t19/有手套/episode_000000.zarr",
+      "frames": 2010
+    },
+    {
+      "task": "t20",
+      "subject": "谢骏奇",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t20/有手套/episode_000000.zarr",
+      "frames": 2487
+    },
+    {
+      "task": "t21",
+      "subject": "谢骏奇",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t21/有手套/episode_000000.zarr",
+      "frames": 2105
+    },
+    {
+      "task": "t22",
+      "subject": "谢骏奇",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t22/有手套/episode_000000.zarr",
+      "frames": 2188
+    },
+    {
+      "task": "t23",
+      "subject": "谢骏奇",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t23/有手套/episode_000000.zarr",
+      "frames": 3785
+    },
+    {
+      "task": "t24",
+      "subject": "谢骏奇",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/谢骏奇/t24/有手套/episode_000000.zarr",
+      "frames": 3787
+    },
+    {
+      "task": "t1",
+      "subject": "连书漾",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t1/有手套/episode_000000.zarr",
+      "frames": 2572
+    },
+    {
+      "task": "t2",
+      "subject": "连书漾",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t2/有手套/episode_000000.zarr",
+      "frames": 2604
+    },
+    {
+      "task": "t3",
+      "subject": "连书漾",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t3/有手套/episode_000000.zarr",
+      "frames": 3296
+    },
+    {
+      "task": "t4",
+      "subject": "连书漾",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t4/有手套/episode_000000.zarr",
+      "frames": 2581
+    },
+    {
+      "task": "t5",
+      "subject": "连书漾",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t5/有手套/episode_000000.zarr",
+      "frames": 2854
+    },
+    {
+      "task": "t6",
+      "subject": "连书漾",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t6/有手套/episode_000000.zarr",
+      "frames": 2763
+    },
+    {
+      "task": "t7",
+      "subject": "连书漾",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t7/有手套/episode_000000.zarr",
+      "frames": 2747
+    },
+    {
+      "task": "t8",
+      "subject": "连书漾",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t8/有手套/episode_000000.zarr",
+      "frames": 2463
+    },
+    {
+      "task": "t9",
+      "subject": "连书漾",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t9/有手套/episode_000000.zarr",
+      "frames": 2495
+    },
+    {
+      "task": "t10",
+      "subject": "连书漾",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t10/有手套/episode_000000.zarr",
+      "frames": 2918
+    },
+    {
+      "task": "t11",
+      "subject": "连书漾",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t11/有手套/episode_000000.zarr",
+      "frames": 2402
+    },
+    {
+      "task": "t12",
+      "subject": "连书漾",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t12/有手套/episode_000000.zarr",
+      "frames": 2493
+    },
+    {
+      "task": "t13",
+      "subject": "连书漾",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t13/有手套/episode_000000.zarr",
+      "frames": 2884
+    },
+    {
+      "task": "t14",
+      "subject": "连书漾",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t14/有手套/episode_000000.zarr",
+      "frames": 2666
+    },
+    {
+      "task": "t15",
+      "subject": "连书漾",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t15/有手套/episode_000000.zarr",
+      "frames": 1819
+    },
+    {
+      "task": "t16",
+      "subject": "连书漾",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t16/有手套/episode_000000.zarr",
+      "frames": 2440
+    },
+    {
+      "task": "t17",
+      "subject": "连书漾",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t17/有手套/episode_000000.zarr",
+      "frames": 2303
+    },
+    {
+      "task": "t18",
+      "subject": "连书漾",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t18/有手套/episode_000000.zarr",
+      "frames": 2902
+    },
+    {
+      "task": "t19",
+      "subject": "连书漾",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t19/有手套/episode_000000.zarr",
+      "frames": 3563
+    },
+    {
+      "task": "t20",
+      "subject": "连书漾",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t20/有手套/episode_000000.zarr",
+      "frames": 3612
+    },
+    {
+      "task": "t21",
+      "subject": "连书漾",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t21/有手套/episode_000000.zarr",
+      "frames": 2188
+    },
+    {
+      "task": "t22",
+      "subject": "连书漾",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t22/有手套/episode_000000.zarr",
+      "frames": 2523
+    },
+    {
+      "task": "t23",
+      "subject": "连书漾",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t23/有手套/episode_000000.zarr",
+      "frames": 3586
+    },
+    {
+      "task": "t24",
+      "subject": "连书漾",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/连书漾/t24/有手套/episode_000000.zarr",
+      "frames": 3784
+    },
+    {
+      "task": "t1",
+      "subject": "郭颖年",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t1/有手套/episode_000000.zarr",
+      "frames": 4975
+    },
+    {
+      "task": "t2",
+      "subject": "郭颖年",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t2/有手套/episode_000000.zarr",
+      "frames": 2968
+    },
+    {
+      "task": "t3",
+      "subject": "郭颖年",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t3/有手套/episode_000000.zarr",
+      "frames": 3042
+    },
+    {
+      "task": "t4",
+      "subject": "郭颖年",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t4/有手套/episode_000000.zarr",
+      "frames": 2917
+    },
+    {
+      "task": "t5",
+      "subject": "郭颖年",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t5/有手套/episode_000000.zarr",
+      "frames": 2673
+    },
+    {
+      "task": "t6",
+      "subject": "郭颖年",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t6/有手套/episode_000000.zarr",
+      "frames": 3277
+    },
+    {
+      "task": "t7",
+      "subject": "郭颖年",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t7/有手套/episode_000000.zarr",
+      "frames": 2480
+    },
+    {
+      "task": "t8",
+      "subject": "郭颖年",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t8/有手套/episode_000000.zarr",
+      "frames": 2462
+    },
+    {
+      "task": "t9",
+      "subject": "郭颖年",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t9/有手套/episode_000000.zarr",
+      "frames": 2583
+    },
+    {
+      "task": "t10",
+      "subject": "郭颖年",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t10/有手套/episode_000000.zarr",
+      "frames": 2650
+    },
+    {
+      "task": "t11",
+      "subject": "郭颖年",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t11/有手套/episode_000000.zarr",
+      "frames": 2469
+    },
+    {
+      "task": "t12",
+      "subject": "郭颖年",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t12/有手套/episode_000000.zarr",
+      "frames": 2388
+    },
+    {
+      "task": "t13",
+      "subject": "郭颖年",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t13/有手套/episode_000000.zarr",
+      "frames": 2524
+    },
+    {
+      "task": "t14",
+      "subject": "郭颖年",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t14/有手套/episode_000000.zarr",
+      "frames": 2682
+    },
+    {
+      "task": "t15",
+      "subject": "郭颖年",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t15/有手套/episode_000000.zarr",
+      "frames": 2254
+    },
+    {
+      "task": "t16",
+      "subject": "郭颖年",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t16/有手套/episode_000000.zarr",
+      "frames": 2255
+    },
+    {
+      "task": "t17",
+      "subject": "郭颖年",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t17/有手套/episode_000000.zarr",
+      "frames": 2106
+    },
+    {
+      "task": "t18",
+      "subject": "郭颖年",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t18/有手套/episode_000000.zarr",
+      "frames": 3348
+    },
+    {
+      "task": "t19",
+      "subject": "郭颖年",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t19/有手套/episode_000000.zarr",
+      "frames": 1827
+    },
+    {
+      "task": "t20",
+      "subject": "郭颖年",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t20/有手套/episode_000000.zarr",
+      "frames": 2657
+    },
+    {
+      "task": "t21",
+      "subject": "郭颖年",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t21/有手套/episode_000000.zarr",
+      "frames": 1919
+    },
+    {
+      "task": "t22",
+      "subject": "郭颖年",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t22/有手套/episode_000000.zarr",
+      "frames": 975
+    },
+    {
+      "task": "t23",
+      "subject": "郭颖年",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t23/有手套/episode_000000.zarr",
+      "frames": 3776
+    },
+    {
+      "task": "t24",
+      "subject": "郭颖年",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/郭颖年/t24/有手套/episode_000000.zarr",
+      "frames": 3686
+    },
+    {
+      "task": "t1",
+      "subject": "钱王瑞",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t1/有手套/episode_000000.zarr",
+      "frames": 2987
+    },
+    {
+      "task": "t2",
+      "subject": "钱王瑞",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t2/有手套/episode_000000.zarr",
+      "frames": 2857
+    },
+    {
+      "task": "t3",
+      "subject": "钱王瑞",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t3/有手套/episode_000000.zarr",
+      "frames": 2988
+    },
+    {
+      "task": "t4",
+      "subject": "钱王瑞",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t4/有手套/episode_000000.zarr",
+      "frames": 2439
+    },
+    {
+      "task": "t5",
+      "subject": "钱王瑞",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t5/有手套/episode_000000.zarr",
+      "frames": 2085
+    },
+    {
+      "task": "t6",
+      "subject": "钱王瑞",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t6/有手套/episode_000000.zarr",
+      "frames": 2494
+    },
+    {
+      "task": "t7",
+      "subject": "钱王瑞",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t7/有手套/episode_000000.zarr",
+      "frames": 2226
+    },
+    {
+      "task": "t8",
+      "subject": "钱王瑞",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t8/有手套/episode_000000.zarr",
+      "frames": 2232
+    },
+    {
+      "task": "t9",
+      "subject": "钱王瑞",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t9/有手套/episode_000000.zarr",
+      "frames": 2337
+    },
+    {
+      "task": "t10",
+      "subject": "钱王瑞",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t10/有手套/episode_000000.zarr",
+      "frames": 2334
+    },
+    {
+      "task": "t11",
+      "subject": "钱王瑞",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t11/有手套/episode_000000.zarr",
+      "frames": 2001
+    },
+    {
+      "task": "t12",
+      "subject": "钱王瑞",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t12/有手套/episode_000000.zarr",
+      "frames": 2079
+    },
+    {
+      "task": "t13",
+      "subject": "钱王瑞",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t13/有手套/episode_000000.zarr",
+      "frames": 2414
+    },
+    {
+      "task": "t14",
+      "subject": "钱王瑞",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t14/有手套/episode_000000.zarr",
+      "frames": 2095
+    },
+    {
+      "task": "t15",
+      "subject": "钱王瑞",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t15/有手套/episode_000000.zarr",
+      "frames": 1694
+    },
+    {
+      "task": "t16",
+      "subject": "钱王瑞",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t16/有手套/episode_000000.zarr",
+      "frames": 2142
+    },
+    {
+      "task": "t17",
+      "subject": "钱王瑞",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t17/有手套/episode_000000.zarr",
+      "frames": 2041
+    },
+    {
+      "task": "t18",
+      "subject": "data(finish)",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t18/episode_000000.zarr",
+      "frames": 2680
+    },
+    {
+      "task": "t19",
+      "subject": "钱王瑞",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t19/有手套/episode_000000.zarr",
+      "frames": 1894
+    },
+    {
+      "task": "t20",
+      "subject": "钱王瑞",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t20/有手套/episode_000000.zarr",
+      "frames": 1677
+    },
+    {
+      "task": "t21",
+      "subject": "钱王瑞",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t21/有手套/episode_000000.zarr",
+      "frames": 1502
+    },
+    {
+      "task": "t22",
+      "subject": "钱王瑞",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t22/有手套/episode_000000.zarr",
+      "frames": 1792
+    },
+    {
+      "task": "t23",
+      "subject": "钱王瑞",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t23/有手套/episode_000000.zarr",
+      "frames": 3750
+    },
+    {
+      "task": "t24",
+      "subject": "钱王瑞",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/钱王瑞/t24/有手套/episode_000000.zarr",
+      "frames": 3911
+    },
+    {
+      "task": "t1",
+      "subject": "陈光",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t1/有手套/episode_000000.zarr",
+      "frames": 2804
+    },
+    {
+      "task": "t2",
+      "subject": "陈光",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t2/有手套/episode_000000.zarr",
+      "frames": 2817
+    },
+    {
+      "task": "t3",
+      "subject": "陈光",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t3/有手套/episode_000000.zarr",
+      "frames": 3109
+    },
+    {
+      "task": "t4",
+      "subject": "陈光",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t4/有手套/episode_000000.zarr",
+      "frames": 3294
+    },
+    {
+      "task": "t5",
+      "subject": "陈光",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t5/有手套/episode_000000.zarr",
+      "frames": 3102
+    },
+    {
+      "task": "t6",
+      "subject": "陈光",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t6/有手套/episode_000000.zarr",
+      "frames": 3320
+    },
+    {
+      "task": "t7",
+      "subject": "陈光",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t7/有手套/episode_000000.zarr",
+      "frames": 3077
+    },
+    {
+      "task": "t8",
+      "subject": "陈光",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t8/有手套/episode_000000.zarr",
+      "frames": 3074
+    },
+    {
+      "task": "t9",
+      "subject": "陈光",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t9/有手套/episode_000000.zarr",
+      "frames": 3291
+    },
+    {
+      "task": "t10",
+      "subject": "陈光",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t10/有手套/episode_000000.zarr",
+      "frames": 3440
+    },
+    {
+      "task": "t11",
+      "subject": "陈光",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t11/有手套/episode_000000.zarr",
+      "frames": 3323
+    },
+    {
+      "task": "t12",
+      "subject": "陈光",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t12/有手套/episode_000000.zarr",
+      "frames": 3856
+    },
+    {
+      "task": "t13",
+      "subject": "陈光",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t13/有手套/episode_000000.zarr",
+      "frames": 3965
+    },
+    {
+      "task": "t14",
+      "subject": "陈光",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t14/有手套/episode_000000.zarr",
+      "frames": 3224
+    },
+    {
+      "task": "t15",
+      "subject": "陈光",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t15/有手套/episode_000000.zarr",
+      "frames": 3342
+    },
+    {
+      "task": "t16",
+      "subject": "陈光",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t16/有手套/episode_000000.zarr",
+      "frames": 2912
+    },
+    {
+      "task": "t17",
+      "subject": "陈光",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t17/有手套/episode_000000.zarr",
+      "frames": 2901
+    },
+    {
+      "task": "t18",
+      "subject": "陈光",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t18/有手套/episode_000000.zarr",
+      "frames": 4105
+    },
+    {
+      "task": "t19",
+      "subject": "陈光",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t19/有手套/episode_000000.zarr",
+      "frames": 2087
+    },
+    {
+      "task": "t20",
+      "subject": "陈光",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t20/有手套/episode_000000.zarr",
+      "frames": 3684
+    },
+    {
+      "task": "t21",
+      "subject": "陈光",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t21/有手套/episode_000000.zarr",
+      "frames": 1722
+    },
+    {
+      "task": "t22",
+      "subject": "陈光",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t22/有手套/episode_000000.zarr",
+      "frames": 2412
+    },
+    {
+      "task": "t23",
+      "subject": "陈光",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t23/有手套/episode_000000.zarr",
+      "frames": 3761
+    },
+    {
+      "task": "t24",
+      "subject": "陈光",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/陈光/t24/有手套/episode_000000.zarr",
+      "frames": 3876
+    },
+    {
+      "task": "t1",
+      "subject": "黄乐彤",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t1/有手套/episode_000000.zarr",
+      "frames": 2346
+    },
+    {
+      "task": "t2",
+      "subject": "黄乐彤",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t2/有手套/episode_000000.zarr",
+      "frames": 2345
+    },
+    {
+      "task": "t3",
+      "subject": "黄乐彤",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t3/有手套/episode_000000.zarr",
+      "frames": 2178
+    },
+    {
+      "task": "t4",
+      "subject": "黄乐彤",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t4/有手套/episode_000000.zarr",
+      "frames": 2082
+    },
+    {
+      "task": "t5",
+      "subject": "黄乐彤",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t5/有手套/episode_000000.zarr",
+      "frames": 1971
+    },
+    {
+      "task": "t6",
+      "subject": "黄乐彤",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t6/有手套/episode_000000.zarr",
+      "frames": 1869
+    },
+    {
+      "task": "t7",
+      "subject": "黄乐彤",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t7/有手套/episode_000000.zarr",
+      "frames": 2048
+    },
+    {
+      "task": "t8",
+      "subject": "黄乐彤",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t8/有手套/episode_000000.zarr",
+      "frames": 2020
+    },
+    {
+      "task": "t9",
+      "subject": "黄乐彤",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t9/有手套/episode_000000.zarr",
+      "frames": 1886
+    },
+    {
+      "task": "t10",
+      "subject": "黄乐彤",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t10/有手套/episode_000000.zarr",
+      "frames": 1932
+    },
+    {
+      "task": "t11",
+      "subject": "黄乐彤",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t11/有手套/episode_000000.zarr",
+      "frames": 1876
+    },
+    {
+      "task": "t12",
+      "subject": "黄乐彤",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t12/有手套/episode_000000.zarr",
+      "frames": 1883
+    },
+    {
+      "task": "t13",
+      "subject": "黄乐彤",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t13/有手套/episode_000000.zarr",
+      "frames": 1906
+    },
+    {
+      "task": "t14",
+      "subject": "黄乐彤",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t14/有手套/episode_000000.zarr",
+      "frames": 1985
+    },
+    {
+      "task": "t15",
+      "subject": "黄乐彤",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t15/有手套/episode_000000.zarr",
+      "frames": 2050
+    },
+    {
+      "task": "t16",
+      "subject": "黄乐彤",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t16/有手套/episode_000000.zarr",
+      "frames": 1761
+    },
+    {
+      "task": "t17",
+      "subject": "黄乐彤",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t17/有手套/episode_000000.zarr",
+      "frames": 1869
+    },
+    {
+      "task": "t18",
+      "subject": "黄乐彤",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t18/有手套/episode_000000.zarr",
+      "frames": 2222
+    },
+    {
+      "task": "t19",
+      "subject": "黄乐彤",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t19/有手套/episode_000000.zarr",
+      "frames": 1566
+    },
+    {
+      "task": "t20",
+      "subject": "黄乐彤",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t20/有手套/episode_000000.zarr",
+      "frames": 2705
+    },
+    {
+      "task": "t21",
+      "subject": "黄乐彤",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t21/有手套/episode_000000.zarr",
+      "frames": 1643
+    },
+    {
+      "task": "t22",
+      "subject": "黄乐彤",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t22/有手套/episode_000000.zarr",
+      "frames": 1495
+    },
+    {
+      "task": "t23",
+      "subject": "黄乐彤",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t23/有手套/episode_000000.zarr",
+      "frames": 3592
+    },
+    {
+      "task": "t24",
+      "subject": "黄乐彤",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/黄乐彤/t24/有手套/episode_000000.zarr",
+      "frames": 3754
+    },
+    {
+      "task": "t1",
+      "subject": "龙葆琳",
+      "instruction": "任务 t1",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t1/有手套/episode_000000.zarr",
+      "frames": 3924
+    },
+    {
+      "task": "t2",
+      "subject": "龙葆琳",
+      "instruction": "任务 t2",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t2/有手套/episode_000000.zarr",
+      "frames": 3705
+    },
+    {
+      "task": "t3",
+      "subject": "龙葆琳",
+      "instruction": "任务 t3",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t3/有手套/episode_000000.zarr",
+      "frames": 3687
+    },
+    {
+      "task": "t4",
+      "subject": "龙葆琳",
+      "instruction": "任务 t4",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t4/有手套/episode_000000.zarr",
+      "frames": 3495
+    },
+    {
+      "task": "t5",
+      "subject": "龙葆琳",
+      "instruction": "任务 t5",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t5/有手套/episode_000000.zarr",
+      "frames": 3711
+    },
+    {
+      "task": "t6",
+      "subject": "龙葆琳",
+      "instruction": "任务 t6",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t6/有手套/episode_000000.zarr",
+      "frames": 3215
+    },
+    {
+      "task": "t7",
+      "subject": "龙葆琳",
+      "instruction": "任务 t7",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t7/有手套/episode_000000.zarr",
+      "frames": 4686
+    },
+    {
+      "task": "t8",
+      "subject": "龙葆琳",
+      "instruction": "任务 t8",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t8/有手套/episode_000000.zarr",
+      "frames": 4848
+    },
+    {
+      "task": "t9",
+      "subject": "龙葆琳",
+      "instruction": "任务 t9",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t9/有手套/episode_000000.zarr",
+      "frames": 3869
+    },
+    {
+      "task": "t10",
+      "subject": "龙葆琳",
+      "instruction": "任务 t10",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t10/有手套/episode_000000.zarr",
+      "frames": 3727
+    },
+    {
+      "task": "t11",
+      "subject": "龙葆琳",
+      "instruction": "任务 t11",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t11/有手套/episode_000000.zarr",
+      "frames": 3275
+    },
+    {
+      "task": "t12",
+      "subject": "龙葆琳",
+      "instruction": "任务 t12",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t12/有手套/episode_000000.zarr",
+      "frames": 3015
+    },
+    {
+      "task": "t13",
+      "subject": "龙葆琳",
+      "instruction": "任务 t13",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t13/有手套/episode_000000.zarr",
+      "frames": 3641
+    },
+    {
+      "task": "t14",
+      "subject": "龙葆琳",
+      "instruction": "任务 t14",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t14/有手套/episode_000000.zarr",
+      "frames": 3696
+    },
+    {
+      "task": "t15",
+      "subject": "龙葆琳",
+      "instruction": "任务 t15",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t15/有手套/episode_000000.zarr",
+      "frames": 3260
+    },
+    {
+      "task": "t16",
+      "subject": "龙葆琳",
+      "instruction": "任务 t16",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t16/有手套/episode_000000.zarr",
+      "frames": 3285
+    },
+    {
+      "task": "t17",
+      "subject": "龙葆琳",
+      "instruction": "任务 t17",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t17/有手套/episode_000000.zarr",
+      "frames": 3070
+    },
+    {
+      "task": "t18",
+      "subject": "龙葆琳",
+      "instruction": "任务 t18",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t18/有手套/episode_000000.zarr",
+      "frames": 3174
+    },
+    {
+      "task": "t19",
+      "subject": "龙葆琳",
+      "instruction": "任务 t19",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t19/有手套/episode_000000.zarr",
+      "frames": 1988
+    },
+    {
+      "task": "t20",
+      "subject": "龙葆琳",
+      "instruction": "任务 t20",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t20/有手套/episode_000000.zarr",
+      "frames": 2270
+    },
+    {
+      "task": "t21",
+      "subject": "龙葆琳",
+      "instruction": "任务 t21",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t21/有手套/episode_000000.zarr",
+      "frames": 1949
+    },
+    {
+      "task": "t22",
+      "subject": "龙葆琳",
+      "instruction": "任务 t22",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t22/有手套/episode_000000.zarr",
+      "frames": 1576
+    },
+    {
+      "task": "t23",
+      "subject": "龙葆琳",
+      "instruction": "任务 t23",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t23/有手套/episode_000000.zarr",
+      "frames": 3642
+    },
+    {
+      "task": "t24",
+      "subject": "龙葆琳",
+      "instruction": "任务 t24",
+      "episode": "/home/lzt/wuji_ftp1_collection_v8 (1)/data(finish)/龙葆琳/t24/有手套/episode_000000.zarr",
+      "frames": 3800
+    }
+  ],
+  "errors": []
+}

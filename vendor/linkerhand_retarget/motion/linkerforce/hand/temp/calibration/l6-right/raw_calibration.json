@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "input_model": "coordinate_projection1",
+  "hand_model": "l6",
+  "hand_side": "right",
+  "created_at": "2026-05-22T05:53:16.448547+00:00",
+  "updated_at": "2026-05-27T02:27:34.565058+00:00",
+  "poses": {
+    "open_four_fingers_together": {
+      "label": "四指并拢 open",
+      "captured_at": "2026-05-22T05:55:43.007860+00:00",
+      "urdf_joints": {
+        "thumb_cmc_roll": 0.0,
+        "thumb_cmc_pitch": 0.0,
+        "thumb_dip": 0.0,
+        "index_mcp_pitch": 0.0,
+        "index_dip": 0.0,
+        "middle_mcp_pitch": 0.0,
+        "middle_dip": 0.0,
+        "ring_mcp_pitch": 0.0,
+        "ring_dip": 0.0,
+        "pinky_mcp_pitch": 0.0,
+        "pinky_dip": 0.0
+      },
+      "o20_pose": [],
+      "motor_values": [],
+      "stability": {}
+    },
+    "open_all_spread": {
+      "label": "全部张手",
+      "captured_at": "2026-05-22T05:55:49.674478+00:00",
+      "urdf_joints": {
+        "thumb_cmc_roll": 0.0,
+        "thumb_cmc_pitch": 0.0,
+        "thumb_dip": 0.0,
+        "index_mcp_pitch": 0.0,
+        "index_dip": 0.0,
+        "middle_mcp_pitch": 0.0,
+        "middle_dip": 0.0,
+        "ring_mcp_pitch": 0.0,
+        "ring_dip": 0.0,
+        "pinky_mcp_pitch": 0.0,
+        "pinky_dip": 0.0
+      },
+      "o20_pose": [],
+      "motor_values": [],
+      "stability": {}
+    },
+    "fist": {
+      "label": "握拳",
+      "captured_at": "2026-05-22T08:35:25.181192+00:00",
+      "urdf_joints": {
+        "thumb_cmc_roll": 1.274,
+        "thumb_cmc_pitch": 0.511,
+        "thumb_dip": 0.66,
+        "index_mcp_pitch": 1.22,
+        "index_dip": 1.08,
+        "middle_mcp_pitch": 1.22,
+        "middle_dip": 1.08,
+        "ring_mcp_pitch": 1.22,
+        "ring_dip": 1.08,
+        "pinky_mcp_pitch": 1.22,
+        "pinky_dip": 1.08
+      },
+      "o20_pose": [],
+      "motor_values": [
+        76,
+        43,
+        0,
+        0,
+        0,
+        0
+      ],
+      "stability": {}
+    },
+    "pinch_index_thumb": {
+      "label": "食指-拇指",
+      "captured_at": "2026-05-27T02:27:34.565058+00:00",
+      "urdf_joints": {
+        "thumb_cmc_roll": 1.458,
+        "thumb_cmc_pitch": 0.5696862745098039,
+        "thumb_dip": 0.66,
+        "index_mcp_pitch": 0.329,
+        "index_dip": 0.61852,
+        "middle_mcp_pitch": 0.0,
+        "middle_dip": 0.0,
+        "ring_mcp_pitch": 0.0,
+        "ring_dip": 0.0,
+        "pinky_mcp_pitch": 0.0,
+        "pinky_dip": 0.0
+      },
+      "o20_pose": [],
+      "motor_values": [
+        56,
+        47,
+        186,
+        255,
+        255,
+        255
+      ],
+      "stability": {}
+    },
+    "pinch_middle_thumb": {
+      "label": "中指-拇指",
+      "captured_at": null,
+      "urdf_joints": {},
+      "o20_pose": [],
+      "motor_values": [],
+      "stability": {}
+    },
+    "pinch_ring_thumb": {
+      "label": "无名指-拇指",
+      "captured_at": null,
+      "urdf_joints": {},
+      "o20_pose": [],
+      "motor_values": [],
+      "stability": {}
+    },
+    "pinch_pinky_thumb": {
+      "label": "小指-拇指",
+      "captured_at": null,
+      "urdf_joints": {},
+      "o20_pose": [],
+      "motor_values": [],
+      "stability": {}
+    }
+  }
+}

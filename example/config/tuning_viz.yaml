@@ -1,0 +1,67 @@
+skeleton:
+  mediapipe_input:
+    enabled: true
+    color:
+    - 1.0
+    - 0.5
+    - 0.0
+    - 0.6
+    line_color:
+    - 1.0
+    - 0.6
+    - 0.2
+    - 0.5
+    point_size: 0.004
+    line_width: 0.002
+  scaled_target:
+    enabled: true
+    color:
+    - 0.05
+    - 0.25
+    - 1.0
+    - 0.95
+    line_color:
+    - 0.1
+    - 0.35
+    - 1.0
+    - 0.9
+    point_size: 0.004
+    line_width: 0.002
+  robot_fk:
+    enabled: true
+    color:
+    - 1.0
+    - 1.0
+    - 1.0
+    - 0.95
+    line_color:
+    - 1.0
+    - 1.0
+    - 1.0
+    - 0.8
+    point_size: 0.005
+    line_width: 0.003
+  draw_lines: true
+  highlight_color:
+  - 1.0
+  - 0.0
+  - 0.0
+  - 1.0
+  highlight_duration: 1.0
+robot_mesh:
+  alpha: 0.3
+camera:
+  azimuth: 135
+  elevation: -20
+  distance: 0.5
+  lookat:
+  - 0.0
+  - 0.0
+  - 0.05
+hud:
+  show_params: true
+  show_frame_info: true
+  show_cost: true
+  show_pinch_alpha: true
+hot_reload:
+  poll_interval: 0.5

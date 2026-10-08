@@ -1,0 +1,11 @@
+pico_tracker_pose_publisher:
+  ros__parameters:
+    # Leave empty only when exactly one Motion Tracker is connected. If more
+    # than one is paired, pass tracker_serial:=... to the RM75 launch.
+    tracker_serial: ""
+    pc_service_host: "127.0.0.1"
+    pc_service_port: 60061
+    output_topic: "/pico/right_wrist/raw_pose"
+    frame_id: "pico_tracking"
+    publish_rate_hz: 60.0
+    reconnect_interval_sec: 2.0

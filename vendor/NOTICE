@@ -1,0 +1,6 @@
+LinkerHand ROS2 Teleop SDK
+Copyright (c) 2024 Linker Robotics
+
+This repository includes the ROS2 teleoperation integration code, configuration,
+tests, and robot model assets maintained by Linker Robotics.
+

@@ -1,0 +1,38 @@
+optimizer:
+  type: L20SemanticV4
+  urdf_path: ../../../../vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/linkerhand_l20_right_wuji.urdf
+  link_naming:
+    prefix: ''
+    palm: base_link
+    fingers:
+    - thumb
+    - index
+    - middle
+    - ring
+    - pinky
+    pip: '{finger}_middle'
+    dip: '{finger}_distal'
+    tip: '{finger}_tip'
+    link1: '{finger}_metacarpals'
+  mjcf_path: ../../../../vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/linkerhand_l20_right_wuji.xml
+retarget:
+  lp_alpha: 0.2
+  mediapipe_rotation:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  wrist_offset_cm:
+  - 0.0
+  - 0.0
+  - 0.0
+  thumb_offset_cm:
+  - 0.0
+  - 0.0
+  - 0.0
+  robot_morphology: false
+  v4_roll_samples: 41
+  v4_pitch_samples: 81
+  v4_curl_samples: 121
+  v4_debug_every: 20
+wuji_glove:
+  device_name: glove

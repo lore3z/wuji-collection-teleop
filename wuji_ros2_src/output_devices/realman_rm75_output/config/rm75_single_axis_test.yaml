@@ -1,0 +1,18 @@
+rm75_single_axis_test_node:
+  ros__parameters:
+    robot_ip: "192.168.1.18"
+    robot_port: 8080
+    input_topic: "/pico/right_wrist/raw_pose"
+    dry_run: true
+    enable_motion: false
+    backend: "fake"
+    command_rate_hz: 20.0  # experimental candidate, not an official recommendation
+    max_offset_m: 0.005
+    max_linear_speed_m_s: 0.005
+    max_test_duration_sec: 10.0
+    preflight_sample_step_m: 0.0005
+    tracker_timeout_sec: 0.5
+    axis_mapping: [0.0, 0.0, -1.0,
+                   -1.0, 0.0, 0.0,
+                   0.0, 1.0, 0.0]
+    position_scale: 0.05

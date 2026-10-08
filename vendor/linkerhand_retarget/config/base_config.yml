@@ -1,0 +1,73 @@
+calibration:
+  fist_extend_ratio: 0.5
+  show_fist: false
+debug:
+  joint_motor_debug_l: false
+  joint_motor_debug_r: false
+  joint_pub_debug: false
+  mapper_debug: false
+humanset:
+  bodyfile: body_unity_pose
+  targethandfile: human_hand_info
+linkereg:
+  password: i
+  port: null
+mujoco:
+  enabled: false
+  fps: 30
+  hands: auto
+  model_rotate_rpy:
+  - 0
+  - -0.785398163397
+  - -1.57079632679
+  model_scale: 5.0
+  model_translate_xyz:
+  - 0
+  - 0
+  - -0.5
+netpub:
+  ip: 192.168.11.33
+  port: 20008
+serial:
+  auto_scan: true
+  baudrates:
+  - 2000000
+  - 460800
+  - 1000000
+  - 921600
+  exclude_ports: []
+  left:
+    baudrate: 2000000
+    port: /dev/ttyUSB1
+  right:
+    baudrate: 2000000
+    port: /dev/ttyUSB0
+  serial_debug: true
+system:
+  can:
+    bitrate: 1000000
+    dofs: 25
+    id: 40
+  datasource_type: motion
+  leftpub: true
+  motion_device: eric
+  motion_type: linkerforce
+  retargeting_type: projection
+  rightpub: true
+  robotname_l: o6
+  robotname_r: g20
+  sapientype: left
+  usecan: false
+  usegui: false
+  usenetpub: false
+  usesapien: true
+  useudp: true
+  useudpserver: true
+touch_recording:
+  enabled: true
+  format: jsonl
+  output_path: src/linkerhand_retarget/linkerhand_retarget/motion/linkerforce/tmp/touch_data.jsonl
+udp:
+  ip: 192.168.11.88
+  port: 8888
+  serverport: 5551

@@ -1,0 +1,13 @@
+# The collector environment is intentionally smaller than the retargeting stack.
+# ROS Python modules come from /opt/ros/humble via --system-site-packages.
+numpy>=1.23,<2
+zarr==2.18.3
+numcodecs==0.13.1
+imagecodecs==2024.9.22
+opencv-python==4.11.0.86
+matplotlib>=3.5,<4
+wuji-sdk==2026.8.17
+pyserial==3.5
+python-can>=4.3,<5
+PyYAML>=6,<7
+av>=12,<17

@@ -1,0 +1,48 @@
+# Local Python environments and generated ROS workspaces
+.venv/
+.venv-teleop/
+.runtime/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+install/
+log/
+logs/
+
+# Device-specific overrides and personal recordings
+/config/local.env
+/config/local.env.*
+/config/tactile_health_mask.json
+/data/
+/runtime/emg_model_hand_runs/
+/runtime/emg_teleop_sessions/
+/runtime/motion_geometry_runs/
+*.zarr/
+*.bag
+*.db3
+*.mcap
+*.mp4
+*.avi
+*.pt
+*.pth
+*.ckpt
+*.log
+MUJOCO_LOG.TXT
+/release/
+
+# Editor/cache files and intermediate source backups
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*~
+*.bak*
+*.bad_*
+*.failed_*
+*.before_online_*
+# These URDFs are checksum-audited geometry dependencies of the frozen baseline.
+!/vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/*.urdf.bak*
+# Nested repositories are vendored as ordinary source files.
+.gitmodules

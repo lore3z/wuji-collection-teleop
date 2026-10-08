@@ -1,0 +1,49 @@
+realman_rm75_output_node:
+  ros__parameters:
+    robot_ip: "192.168.1.18"
+    robot_port: 8080
+    input_topic: "/right_arm_target_pose"
+    input_frame: "world_right"
+    elbow_topic: "/right_arm_elbow_direction"
+    elbow_frame: "world_right"
+    enable_arm_angle_constraint: true
+    arm_angle_scale: 0.25
+    max_arm_angle_step_deg: 5.0
+    dry_run: true
+    enable_motion: false
+
+    # WUJI right-chest [forward, up, right] -> acRealman-style RM75 base
+    # [up, back, right]. pico_input has already applied PICO -> world ->
+    # right-chest, so do not apply the raw PICO mapping again.
+    # This single proper rotation C is shared by translation and orientation:
+    #   RM delta_p = scale * C * chest_delta_p
+    #   RM delta_R = C * chest_delta_R * C^T
+    # Here RM delta = scale * [chest_y, -chest_x, chest_z].
+    axis_mapping: [ 0.0, 1.0, 0.0,
+                  -1.0, 0.0, 0.0,
+                   0.0, 0.0, 1.0]
+    position_scale: 0.15
+    # Translation calibration mode: ignore PICO relative rotation and keep the
+    # RM75 startup orientation fixed.
+    # Combined 6DoF dry-run. This still computes targets/IK only and has no
+    # motion command path.
+    translation_only: false
+    rotation_only: false
+    rotation_scale: 0.20
+
+    max_position_jump_m: 0.10
+    max_rotation_jump_deg: 45.0
+    tracker_timeout_sec: 0.50
+    # Reject a stream that keeps publishing numerically identical pose content.
+    freeze_timeout_sec: 0.75
+    workspace_min: [-0.80, -0.80, -0.10]
+    workspace_max: [ 0.80,  0.80,  1.20]
+
+    # Ordinary IK/FK dry-run validation. The previous accepted seven-joint
+    # solution is used as the next ordinary-IK reference; arm angle is observed
+    # only and never supplied as an IK constraint.
+    max_joint_jump_deg: 12.0
+    joint_limit_margin_deg: 5.0
+    fk_position_warn_m: 0.003
+    fk_position_fault_m: 0.005
+    max_fk_orientation_error_deg: 1.0

@@ -1,0 +1,84 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Base grid
+      Enabled: true
+      Cell Size: 0.1
+      Plane Cell Count: 20
+      Reference Frame: base_link
+      Value: true
+    - Class: rviz_default_plugins/RobotModel
+      Name: RM75 smoothed q_cmd
+      Enabled: true
+      Description Source: Topic
+      Description Topic:
+        Value: /robot_description
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Depth: 5
+      Visual Enabled: true
+      Collision Enabled: false
+      Alpha: 1
+      Value: true
+    - Class: rviz_default_plugins/Pose
+      Name: Requested TCP target
+      Enabled: true
+      Topic:
+        Value: /rm75_shadow/target_pose
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Depth: 5
+      Shape: Axes
+      Axes Length: 0.16
+      Axes Radius: 0.012
+      Value: true
+    - Class: rviz_default_plugins/Pose
+      Name: Official FK result
+      Enabled: true
+      Topic:
+        Value: /rm75_shadow/fk_pose
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Depth: 5
+      Shape: Arrow
+      Color: 0; 255; 0
+      Shaft Length: 0.12
+      Shaft Radius: 0.01
+      Head Length: 0.04
+      Head Radius: 0.02
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 35; 35; 35
+    Fixed Frame: base_link
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 1.8
+      Focal Point:
+        X: 0.0
+        Y: 0.0
+        Z: 0.45
+      Pitch: 0.35
+      Yaw: 0.75
+      Target Frame: base_link
+      Value: Orbit (rviz)

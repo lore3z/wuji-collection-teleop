@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-11T14:48:48.706789+00:00",
+  "mode_a_origin": "runtime/backups/V94_GOOD_ROOT_ONLY_PINCH_20260911_155138",
+  "mode_b_origin": "runtime/backups/MODE_B_GOOD_NATURAL_THUMB5_20260911_215803",
+  "files": {
+    "mode_a.py": {
+      "sha256": "f6185cab4ccf4640eb3e33a38c5e341a41b97cd7c7d5e068a8fa44b4275cf8f0",
+      "origin": "runtime/backups/V94_GOOD_ROOT_ONLY_PINCH_20260911_155138/skeleton_teleop_v94_hw.py"
+    },
+    "mode_b.py": {
+      "sha256": "cab3ea0c4aacd554ad06cce9c7837a3569f0eaae22fc4f65b424e8588f34f369",
+      "origin": "runtime/backups/MODE_B_GOOD_NATURAL_THUMB5_20260911_215803/skeleton_teleop_MODE_B_thumb5.py"
+    },
+    "skeleton_teleop_v9_calibrated_sim.py": {
+      "sha256": "adb9e40dc5a1d7005e9056510b66f08675f7a44fb508e9cbad9afeb2d0e2709d",
+      "origin": "skeleton_teleop_v9_calibrated_sim.py"
+    },
+    "wuji_l20_g20_teleop.py": {
+      "sha256": "89900223d9c052d29c636dc3371c611bd7ac911c33d1e2f245aa8fe66f1f98e3",
+      "origin": "wuji_l20_g20_teleop.py"
+    },
+    "skeleton_v93_live_viewer.py": {
+      "sha256": "f76441b223a0925c1d335c331f41ecdeb6886473b3927897259ae429e6d294a7",
+      "origin": "runtime/backups/V94_GOOD_ROOT_ONLY_PINCH_20260911_155138/skeleton_v93_live_viewer.py"
+    },
+    "bridge/l20_wuji_hw_bridge.py": {
+      "sha256": "abf95c0e0304b7a5b2bbbd0addce861936f3127b0b340a7c6a0856b1527847b9",
+      "origin": "runtime/backups/V94_GOOD_ROOT_ONLY_PINCH_20260911_155138/l20_wuji_hw_bridge.py"
+    },
+    "runtime/v93_skeleton_calib_right.pkl": {
+      "sha256": "56b1c59c6f2604cd83f7f41d07e50b9b2c2b7dcc61ddf710038399791cebda2d",
+      "origin": "runtime/backups/V94_GOOD_ROOT_ONLY_PINCH_20260911_155138/v93_skeleton_calib_right.pkl"
+    },
+    "runtime/thumb_all_fingers_manual_pad_IK.npz": {
+      "sha256": "c4336e0dc49ec16e4a19c76434b1b948f83a12390c1ed5c09442b5bd73ec9c7c",
+      "origin": "runtime/backups/V94_GOOD_ROOT_ONLY_PINCH_20260911_155138/thumb_all_fingers_manual_pad_IK.npz"
+    },
+    "runtime/action_prior/thumb_mcp_ip_runtime_model.npz": {
+      "sha256": "686e77d818598b0f5d562ea7321247e10f62bf7f386517200ca444673d6167d2",
+      "origin": "runtime/backups/MODE_B_GOOD_NATURAL_THUMB5_20260911_215803/thumb_mcp_ip_runtime_model.npz"
+    },
+    "runtime/action_prior/thumb_root_runtime_model.npz": {
+      "sha256": "45d75b4cf51318755a70a4c3a3fe65c6d7aee5c79de1fd28bd0fa01bba3005af",
+      "origin": "runtime/backups/MODE_B_GOOD_NATURAL_THUMB5_20260911_215803/thumb_root_runtime_model.npz"
+    },
+    "runtime/action_prior/grasp_thumb_runtime_model.npz": {
+      "sha256": "e2dcb6462ad2e3a4f18245158cdf9bee176a867d8c90ef4cac874e347f5a5710",
+      "origin": "runtime/action_prior/grasp_thumb_runtime_model.npz"
+    },
+    "mode_a.env.sh": {
+      "sha256": "fece86a1d837430dc7ae50653b95ed4ac9e11f3eea16bf95ae750e87644416dd",
+      "origin": "runtime/backups/V94_GOOD_ROOT_ONLY_PINCH_20260911_155138/run_good_version.sh"
+    },
+    "mode_b.env.sh": {
+      "sha256": "4266401e33e1d7763889fdae9a5e1e23a0edc06d86185075b2fb20883a0ae0cb",
+      "origin": "runtime/backups/MODE_B_GOOD_NATURAL_THUMB5_20260911_215803/run_hw.sh"
+    },
+    "example/config/l20_feature_retarget_wuji_right.yaml": {
+      "sha256": "6d39b8762bc81cdc63cfded82ed368aa85c9f009df60bd0977b7decd70b99c6a",
+      "origin": "example/config/l20_feature_retarget_wuji_right.yaml",
+      "original_sha256": "4ca5749213c797263a70a3ad9446b209dc1363a42e33266af26e1f1dee389cdd"
+    },
+    "example/config/l20_semantic_v4_wuji_right.yaml": {
+      "sha256": "76f9116b46f383ff0e108cacfcc75e02eb5c524eee640bd4498468d12c561fe4",
+      "origin": "example/config/l20_semantic_v4_wuji_right.yaml",
+      "original_sha256": "9b90388825f3e249229bfb1e4c2870c435c7d4efa374a20b8b5950d8440fdb3f"
+    },
+    "example/input_devices/wuji_glove_device.py": {
+      "sha256": "c88def568843b72d3f5874f095314cadbadc036f5738e960d577195d64504b04",
+      "origin": "example/input_devices/wuji_glove_device.py"
+    },
+    "example/input_devices/base.py": {
+      "sha256": "a2a3e8ea87704d6f0588cd979b4a1a5ce200018a56da868242ecd4ae80ea8838",
+      "origin": "example/input_devices/base.py"
+    },
+    "wuji_retargeting/morphology.py": {
+      "sha256": "09ba16f662bff212f1bfa18a4e998801824950eabbdd5d33d182c659dac265c1",
+      "origin": "wuji_retargeting/morphology.py"
+    },
+    "wuji_retargeting/robot.py": {
+      "sha256": "fcaefdea0c21af8da610dc6189b661d82b3698fa80ed3810bf6be2c0045baa6c",
+      "origin": "wuji_retargeting/robot.py"
+    },
+    "wuji_retargeting/mediapipe.py": {
+      "sha256": "3da20bf3df1963c84f5d66d17ec340d3b01cb63d6b0b022e512c4a9324ed7510",
+      "origin": "wuji_retargeting/mediapipe.py"
+    },
+    "wuji_retargeting/retarget.py": {
+      "sha256": "fa43332dd8f077cd046fc46b14a559140dee7ba3d8f46dcc3ef7cda953deaea9",
+      "origin": "wuji_retargeting/retarget.py"
+    },
+    "wuji_retargeting/__init__.py": {
+      "sha256": "606f13f4b3516403f4e0bc0ee1b5492be34b4518b1c29c33fc47dcbbf9fd8adb",
+      "origin": "wuji_retargeting/__init__.py"
+    },
+    "wuji_retargeting/viz/skeleton_drawer.py": {
+      "sha256": "d8e3a57bb62b9752c6de3ee5ad8ff474137885570b5027db1d0bc66c68ec2929",
+      "origin": "wuji_retargeting/viz/skeleton_drawer.py"
+    },
+    "wuji_retargeting/viz/hud.py": {
+      "sha256": "4c21395f9547ea5741304a83c2861fb86ec6319f6bb3dab756facc8531acfe40",
+      "origin": "wuji_retargeting/viz/hud.py"
+    },
+    "wuji_retargeting/viz/param_map.py": {
+      "sha256": "586fc1ee1e78ee79de85eb615f17271e1128d1d97ea80ad5a73a22b79f733f6e",
+      "origin": "wuji_retargeting/viz/param_map.py"
+    },
+    "wuji_retargeting/viz/tuning_viewer.py": {
+      "sha256": "acd5f5cb5a3d50ed9e6bc3f3cfedc0c84e6a511d90ed84212b1e3386079de7dc",
+      "origin": "wuji_retargeting/viz/tuning_viewer.py"
+    },
+    "wuji_retargeting/viz/__init__.py": {
+      "sha256": "08d9cfe528bb7d677af22eedf3195c71a47522680e9fbaf2f41001632583d791",
+      "origin": "wuji_retargeting/viz/__init__.py"
+    },
+    "wuji_retargeting/viz/config_watcher.py": {
+      "sha256": "1d969f00d2139ff48c9558cdfeeec37845dfc7fc9c1e245efa9081d0ef53f08c",
+      "origin": "wuji_retargeting/viz/config_watcher.py"
+    },
+    "wuji_retargeting/opt/base.py": {
+      "sha256": "efe988240e9727a9dfa77adf023a858a5b772c2a0f11eeddb4ddf705768c30e1",
+      "origin": "wuji_retargeting/opt/base.py"
+    },
+    "wuji_retargeting/opt/l20_multi_pinch_retarget.py": {
+      "sha256": "f6afe9fd47f647d16f287355296fa1beb174fcb7dee5a232c6f7dae4b7377267",
+      "origin": "wuji_retargeting/opt/l20_multi_pinch_retarget.py"
+    },
+    "wuji_retargeting/opt/adaptive_analytical.py": {
+      "sha256": "b29f1de4f60f1ace235b836aeccbdae0db37b73bcd810fda01547a58a2ab8a2d",
+      "origin": "wuji_retargeting/opt/adaptive_analytical.py"
+    },
+    "wuji_retargeting/opt/l20_command_retarget.py": {
+      "sha256": "e68ccb08717072ed17921c95c248864f247c563431d597eb4349604496b8e0a9",
+      "origin": "wuji_retargeting/opt/l20_command_retarget.py"
+    },
+    "wuji_retargeting/opt/vector.py": {
+      "sha256": "5dd34984542430b327445565920da79e49c48e6a1aab37cc7f2328baa5e6c5ef",
+      "origin": "wuji_retargeting/opt/vector.py"
+    },
+    "wuji_retargeting/opt/l20_retarget_v2.py": {
+      "sha256": "dcbbc53d1b6c20fb2db517079dcfdc33ca6b70cd834da5cc9315788d5a6eda30",
+      "origin": "wuji_retargeting/opt/l20_retarget_v2.py"
+    },
+    "wuji_retargeting/opt/l20_feature_retarget.py": {
+      "sha256": "8316fbc6c13d1c9d508b2f88a5e2b22be1bcb37fb74a6e959c82353f749331b8",
+      "origin": "wuji_retargeting/opt/l20_feature_retarget.py"
+    },
+    "wuji_retargeting/opt/__init__.py": {
+      "sha256": "f3b27ec405bdae74eb925608e662a53fa5358a6e3de060644b46e268488b6208",
+      "origin": "wuji_retargeting/opt/__init__.py"
+    },
+    "wuji_retargeting/opt/l20_semantic_v4.py": {
+      "sha256": "af0eff25ea287c5824b66def534f41c908dc6abcf85dcc90fe434561d0c526f3",
+      "origin": "wuji_retargeting/opt/l20_semantic_v4.py"
+    }
+  },
+  "external_dependencies": {
+    "runtime/emg_teleop_baseline_v1/bridge/l20_wuji_hw_bridge.py": "abf95c0e0304b7a5b2bbbd0addce861936f3127b0b340a7c6a0856b1527847b9",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/linkerhand_l20_right.urdf.bak_ratio_20260819_141644": "638e6f0b87f7524281ee635fda68bd9fa7de8dd47aca427f1c9552d2dfe272c4",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/linkerhand_l20_right_wuji.urdf": "bc890da10ba39c15fecb1786fb26aba1ea29df1fef979ebf14343f8c2ce8fadb",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/linkerhand_l20_right_wuji.urdf.bak_before_restore_full_mcp_roll": "86800311340d1083c0ebd5fe17dbb86e58ee37afc70ffdfe0b2f025472184670",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/linkerhand_l20_right_wuji.urdf.bak_ratio_20260819_141644": "3f49b61e839a7f1a6951a526dfed4580cff417cf0fb84304ecd61a025c916b8a",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/linkerhand_l20_right_wuji.urdf.bak_before_mcp_roll_limit": "3f49b61e839a7f1a6951a526dfed4580cff417cf0fb84304ecd61a025c916b8a",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/linkerhand_l20_right.urdf": "944e878bc2f41b2fd30642c607b1db0b20ef98744c8eb397085837a5cf6c4485",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/linkerhand_l20_right_wuji_servo.xml": "f4e676009a609846ecca45ae65b3f37fd94d566a031509faf34c410f560bcce3",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/linkerhand_l20_right_wuji.xml": "326878693450f9a97f7abb4ff254630ee581083167ce512a59ecef913ae6f9bd",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/pinky_metacarpals.STL": "3fabd19f8a6a2ca7438f08e0f1f539a699d43e9fe908c414d7a70466afefa326",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/ring_middle.STL": "64c45d873432cd44d7e832d04f4e95c4921f11f5e2ff0958893ad20d96170ddd",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/index_proximal.STL": "2accc60d0e9d2e937b12103c3a6abd6e2b5d975bb7bc146b5962586e1acbdee6",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/thumb_distal.STL": "b650f164c1972cfc074211b197b59d8b9e21e572e1eff7a3315f557877e1e55a",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/ring_proximal.STL": "cba62e5c8240648d30795e8bada56721128a660852fdf156d8075c93f10b32e0",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/thumb_link3.STL": "1470810dfeb1e40acb1f0fe1850db55166f45018239eeb4cfc5db659c75630a5",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/thumb_metacarpals.STL": "6cfa06cac194dca87629474d0c8fb2d02d5dcbe61f2e5bc028ac5f726968719c",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/ring_metacarpals.STL": "a00004fa7c11ad685635b3e5b700fd07ab67a92a07a156528ea0599439338339",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/pinky_distal.STL": "15335ff2e102aed4fa1efc92fa51d414fc0d26ca027883131ff970984b329076",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/middle_link1.STL": "f7a2420b05cbe5a6eec8abccb6428922dcec64bf666e12cf2bf56f27419d8375",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/little_link0.STL": "b261557ad5a447cfee6e6c70a209a97b0392d31f175bd2a1afabf03a5acae1e3",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/thumb_link1.STL": "2216255bbbe159f4546937e97ef9fc71ed10e7826633f214c0817bb09ccad81e",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/ring_link1.STL": "1c1bb48037e12c21eced4de0d816dba3eca7ce4074350551a51df5239bd8d300",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/middle_distal.STL": "e8d77445adfcbb549717787478727184f969d1866a6f2eacd66a44e442cb582e",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/index_link0.STL": "ab783c0338c7972d7397d88f29b688596353ad03789facc807ae0613f9a9861c",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/middle_link2.STL": "357f2271df50349b5e25f9629744c9917893f3181021b44087b6e9310a66d0d8",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/index_link3.STL": "447924798632d089a6900540ebae4ab5be7b93b3ad67915eafed511d5131a0c7",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/index_link1.STL": "a4e16722dcf166e6005fd80d1faffdbbf9df64b9ae376f7891ae8f703fd19e3e",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/index_distal.STL": "72f89c70dec87bf8712a17ce33f2f2425d2a3874d92af3c844411e71b8af05a6",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/thumb_link4.STL": "15878e8c96d192fa9cbaef77bae65a97b21132855698440d1aa0bf3d74cd1efd",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/ring_link3.STL": "447924798632d089a6900540ebae4ab5be7b93b3ad67915eafed511d5131a0c7",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/pinky_middle.STL": "d1fc985850b5aa43d6a343fae53df6a13a932f756f11b62f5461c2744010dcc3",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/ring_link0.STL": "067cda8408826e1ae33b914524f1c3add71215d9fbfcc1a3219d034751655e97",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/thumb_metacarpals_base1.STL": "f11cd741d602cf75adc724565032b241a6113107ec239c10cf6d597bf0696dec",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/ring_distal.STL": "4dafa6c86200b2bd096dc0ce074e057c98648e709e0bc77566b65e74baeb882c",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/middle_link3.STL": "447924798632d089a6900540ebae4ab5be7b93b3ad67915eafed511d5131a0c7",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/thumb_link0.STL": "766b60994e95f859573ba41e76cb1dc2b16f5ddc22d1e1bd3284787aece83bc0",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/little_link1.STL": "03a814cabbc9465734338c685f8c2f4d4abc72be942ec5b2560085335cc593da",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/ring_link4.STL": "6aa46d40f2f6bc31cbfccbd918d5ae4a2066abde96239dc2e1427c2c2a988b19",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/index_link2.STL": "7216c7c71d57c9edcbcb01fcdfd249573a58903c172120293db7556b833b61e8",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/middle_link4.STL": "f141b7e2e9ad790316576d7a992e14b446a90d28330e57480e92aac8d609253c",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/little_link3.STL": "447924798632d089a6900540ebae4ab5be7b93b3ad67915eafed511d5131a0c7",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/little_link4.STL": "b67260805deeaec089c146fb10886ada742d7dec7ecd8c6844a10e20345d39a7",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/middle_metacarpals.STL": "01e4f33ca96dcf965e3649a6bbe69870472fca64b6f01e46737197c406cce41f",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/base_link.STL": "0eb91de436f6a8697d5c80c8c01bd8037c0c5c8d1f96d8f1c731bd592cd90c2d",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/middle_middle.STL": "f72ccaafa9809a8646d93734f5993b69a3bcdc3fbd91be0685fa2deaf723ef70",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/little_link2.STL": "940e6cdc2ef76ee21caa2aefda27e228d3d6e7dab7fbaf0e590aaf6ee1b2c0ee",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/pinky_proximal.STL": "59a19a36283e0c23b078c44696ba8f76b78f2ae09418108217a3c9e6f82084f3",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/ring_link2.STL": "9d524a4300a6bb74ed21ed7dfafe3e3ba078cc36d0e6e7bbec9bf812ccd7edb8",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/middle_link0.STL": "11111b64d5158c8fdc66f504691c87066f3d0b75fe5185934893b7a306b730e5",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/index_link4.STL": "37e920c77ee1ca58c90dc3549800c2f20e847e4a78dcd8f8599ea708ee0efbbc",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/index_middle.STL": "ea2fb800981ba9ce1bf04f3315dd665ef89be4512dea91ad118cd8f4135d7e17",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/index_metacarpals.STL": "91757b688a6354112fdb84a1d4b952d801a53a4db13647d345f08200a7702bf2",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/thumb_proximal.STL": "790e485a8ab33dd55809eb4c91c299c3cf8ea6e5d7e5689ff50e6a23e10891e2",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/middle_proximal.STL": "37db56ffd4cd64194c569f73d05a38053b74a9ec715b30ed166e33a126f78b6a",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/thumb_metacarpals_base2.STL": "9de6affd15cf79f8db7217f04984cd1beefd0f5e16b20f2cabfbafcd53a8e185",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/thumb_link5.STL": "73de2617e13616040475356f60851f3a196b25154188696b1628360d37ff2ae5",
+    "vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/meshes/thumb_link2.STL": "32b264fe991d7f7c7adbe6e0b9129a99521c45197892f1bc6eddff2c560cfc9e",
+    "runtime/action_prior/thumb_mcp_ip_runtime_model.npz": "686e77d818598b0f5d562ea7321247e10f62bf7f386517200ca444673d6167d2",
+    "runtime/action_prior/thumb_root_runtime_model.npz": "45d75b4cf51318755a70a4c3a3fe65c6d7aee5c79de1fd28bd0fa01bba3005af",
+    "runtime/action_prior/grasp_thumb_runtime_model.npz": "e2dcb6462ad2e3a4f18245158cdf9bee176a867d8c90ef4cac874e347f5a5710",
+    "runtime/l20_bridge_template.py": "93eb65b5c643eb7e774771d3c8e377c25ca29c8253b550dcc85b0a1e5fc3ee8f"
+  },
+  "stable_backup_files": {
+    "runtime/backups/V94_GOOD_ROOT_ONLY_PINCH_20260911_155138/skeleton_v93_live_viewer.py": "f76441b223a0925c1d335c331f41ecdeb6886473b3927897259ae429e6d294a7",
+    "runtime/backups/V94_GOOD_ROOT_ONLY_PINCH_20260911_155138/restore_this_version.sh": "b27b709df76b62791e298b439c318265c2f83a0929bf1ce60084412354aad13c",
+    "runtime/backups/V94_GOOD_ROOT_ONLY_PINCH_20260911_155138/README_GOOD_VERSION.txt": "b9c3e90d300aba84488410c12c75f66c6e9fe1b41212fbd4eed4e7ef143acfa1",
+    "runtime/backups/V94_GOOD_ROOT_ONLY_PINCH_20260911_155138/skeleton_teleop_v94_hw.py": "f6185cab4ccf4640eb3e33a38c5e341a41b97cd7c7d5e068a8fa44b4275cf8f0",
+    "runtime/backups/V94_GOOD_ROOT_ONLY_PINCH_20260911_155138/v93_skeleton_calib_right.pkl": "56b1c59c6f2604cd83f7f41d07e50b9b2c2b7dcc61ddf710038399791cebda2d",
+    "runtime/backups/V94_GOOD_ROOT_ONLY_PINCH_20260911_155138/run_good_version.sh": "fece86a1d837430dc7ae50653b95ed4ac9e11f3eea16bf95ae750e87644416dd",
+    "runtime/backups/V94_GOOD_ROOT_ONLY_PINCH_20260911_155138/thumb_all_fingers_manual_pad_IK.npz": "c4336e0dc49ec16e4a19c76434b1b948f83a12390c1ed5c09442b5bd73ec9c7c",
+    "runtime/backups/V94_GOOD_ROOT_ONLY_PINCH_20260911_155138/l20_wuji_hw_bridge.py": "abf95c0e0304b7a5b2bbbd0addce861936f3127b0b340a7c6a0856b1527847b9",
+    "runtime/backups/V94_GOOD_ROOT_ONLY_PINCH_20260911_155138/SHA256SUMS.txt": "5fddd1d88fc3484621c0aa1cee6c7d3e7e6095799676a0b9dbbc494bca907ba7",
+    "runtime/backups/MODE_B_GOOD_NATURAL_THUMB5_20260911_215803/run_hw.sh": "4266401e33e1d7763889fdae9a5e1e23a0edc06d86185075b2fb20883a0ae0cb",
+    "runtime/backups/MODE_B_GOOD_NATURAL_THUMB5_20260911_215803/thumb_mcp_ip_runtime_model.npz": "686e77d818598b0f5d562ea7321247e10f62bf7f386517200ca444673d6167d2",
+    "runtime/backups/MODE_B_GOOD_NATURAL_THUMB5_20260911_215803/skeleton_teleop_MODE_B_thumb5.py": "cab3ea0c4aacd554ad06cce9c7837a3569f0eaae22fc4f65b424e8588f34f369",
+    "runtime/backups/MODE_B_GOOD_NATURAL_THUMB5_20260911_215803/l20_wuji_hw_bridge.py": "abf95c0e0304b7a5b2bbbd0addce861936f3127b0b340a7c6a0856b1527847b9",
+    "runtime/backups/MODE_B_GOOD_NATURAL_THUMB5_20260911_215803/thumb_root_runtime_model.npz": "45d75b4cf51318755a70a4c3a3fe65c6d7aee5c79de1fd28bd0fa01bba3005af",
+    "runtime/backups/MODE_B_GOOD_NATURAL_THUMB5_20260911_215803/SHA256SUMS.txt": "43ea068b01362f008d7f3c81b83fd21a91c858eaedaa7d0f6a5843f1df8f6d50"
+  }
+}

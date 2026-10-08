@@ -1,0 +1,7 @@
+rm75_joint_sender_follow_trial:
+  ros__parameters:
+    # FK residual is an IK/FK consistency diagnostic. A warning frame is held
+    # instead of replacing the last safe q_target; persistent warnings fault.
+    fk_position_warn_m: 0.003
+    fk_position_fault_m: 0.005
+    fk_position_max_consecutive_warnings: 5

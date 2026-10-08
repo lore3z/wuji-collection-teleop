@@ -1,0 +1,135 @@
+optimizer:
+  type: L20RetargetV2
+  urdf_path: ../../vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/linkerhand_l20_right_wuji.urdf
+  link_naming:
+    prefix: ''
+    palm: base_link
+    fingers:
+    - thumb
+    - index
+    - middle
+    - ring
+    - pinky
+    pip: '{finger}_middle'
+    dip: '{finger}_distal'
+    tip: '{finger}_tip'
+    link1: '{finger}_metacarpals'
+  mjcf_path: ../../vendor/linkerhand_retarget/assets/robots/hands/linker_hand/l20_right/linkerhand_l20_right_wuji.xml
+retarget:
+
+  # ==========================================================
+  # L20 Retarget V2
+  #
+  # Native 16DOF optimization.
+  # No thumb branch lock / grasp-specific dynamic bounds.
+  # ==========================================================
+  v2_huber_delta_cm: 1.5
+
+  v2_w_landmark: 1.0
+  v2_w_direction: 1.0
+
+  # Extra weight applied specifically to the proximal thumb
+  # geometry.  This is the main structural fix for the missing
+  # CMC/opposition constraint in V1.
+  v2_w_thumb_proximal: 5.0
+
+  # Small smoothing term in the TRUE 16DOF control space.
+  v2_w_temporal: 0.03
+
+  v2_maxeval: 45
+  v2_ftol_abs: 0.00001
+  v2_xtol_rel: 0.00001
+  v2_debug_every: 20
+  huber_delta: 2.0
+  huber_delta_dir: 0.5
+  norm_delta: 0.04
+  w_pos: 1.0
+  w_dir: 2.0
+  scaling: 1.0
+  w_full_hand: 1.0
+  thumb_skip_pip: true
+  w_hyper: 1.0
+  soft_min: 0.0
+  w_couple: 0.0
+  w_pinch: 4.0
+  pinch_release_margin: 1.5
+  pinch_hold_alpha: 0.15
+  pinch_contact_target_cm: 0.5
+
+  # Persistent explicit thumb contact during grasp
+  grasp_contact_grip_on: 0.30
+  grasp_contact_grip_full: 0.65
+  grasp_contact_strength: 0.80
+  grasp_contact_switch_margin: 0.20
+  human_open_update_alpha: 0.05
+
+  # Deep fist CMC branch constraint
+  # These are behavioral bounds, NOT L20 hardware limits.
+  deep_grasp_cmc_on: 0.85
+  deep_grasp_cmc_full: 0.95
+  deep_grasp_roll_floor_deg: -20.0
+  deep_grasp_yaw_floor_deg: 82.0
+
+  # Deep-grasp thumb CMC branch continuity
+  w_thumb_branch_roll: 0.0
+  w_thumb_branch_yaw: 0.0
+  thumb_branch_grip_on: 0.45
+  thumb_branch_grip_full: 0.75
+
+  # Persistent thumb CMC-roll branch lock during a multi-finger grasp
+  thumb_roll_lock_on: 1.10
+  thumb_roll_lock_off: 1.00
+  thumb_roll_window_deg: 12.0
+  couple_ratio: 0.7
+  lp_alpha: 0.2
+  segment_scaling:
+    thumb:
+    - 1.0
+    - 1.0
+    - 1.0
+    index:
+    - 1.0
+    - 1.0
+    - 1.0
+    middle:
+    - 1.0
+    - 1.0
+    - 1.0
+    ring:
+    - 1.0
+    - 1.0
+    - 1.0
+    pinky:
+    - 1.0
+    - 1.0
+    - 1.0
+  pinch_thresholds:
+    index:
+      d1: 2.0
+      d2: 4.0
+    middle:
+      d1: 2.0
+      d2: 4.0
+    ring:
+      d1: 2.0
+      d2: 4.0
+    pinky:
+      d1: 2.0
+      d2: 4.0
+  mediapipe_rotation:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  wrist_offset_cm:
+  - 0.0
+  - 0.0
+  - 0.0
+  thumb_offset_cm:
+  - 0.0
+  - 0.0
+  - 0.0
+  robot_morphology:
+    enabled: true
+    include_thumb: true
+wuji_glove:
+  device_name: glove

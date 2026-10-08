@@ -1,0 +1,22 @@
+pico_right_arm_input_node:
+  ros__parameters:
+    data_source_type: "live"
+    pc_service_host: "127.0.0.1"
+    pc_service_port: 60061
+
+    publish_rate: 60.0
+    auto_init_delay: 5.0
+
+    one_euro_min_cutoff: 1.0
+    one_euro_beta: 0.7
+    elbow_min_cutoff: 0.3
+
+    # Publishing these topics is safe by itself: no robot moves unless a robot
+    # output/controller node is launched separately.
+    enable_topic_publishing: true
+    enable_legacy_topics: true
+    topic_prefix: "pico"
+
+    # Wrist drives TCP pose; upper-arm position drives elbow direction.
+    tracker_sn_right_wrist: "PC2310MLKC190056G"
+    tracker_sn_right_arm: "PC2310MLKC190573G"
